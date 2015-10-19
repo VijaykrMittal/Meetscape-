@@ -1,0 +1,50 @@
+<div data-role="view" id="userprofile" data-title="User Profile" data-model="app.userProfileService.viewModel" data-show="app.userProfileService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
+            <span data-role="view-title"></span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="picDv">
+                <!--<img src="styles/images/img1.png" />-->
+                <!--<div data-role="scrollview" id="scrollView" data-page="0" data-content-height="100%" data-pager-overlay="true">
+                    <div style="width:384px;height:300px">
+                        <div class="photo photo1" data-role="page">
+                        </div>
+                        <div class="photo photo2" data-role="page">
+                        </div>
+                        <div class="photo photo3" data-role="page">
+                        </div>
+                        <div class="photo photo4" data-role="page">
+                        </div>
+                    </div>
+                </div>-->
+                <ul id="slider2">
+                <li><img src="styles/images/img1.png" /></li>
+                <li><img src="styles/images/img2.png" /></li>
+                <li><img src="styles/images/img3.png" /></li>
+                </ul>
+            </div>
+            <div class="titleEditDv">
+                <div class="titlePart">
+                    <p>
+                        <span class="nameSpan">Dave Michalle,</span><span class="ageSpan">19</span>
+                    </p>
+                    <p>
+                        <span style="float:left"><img src="styles/images/location.png" style="margin-top: -5px;"/></span><span style="margin-left: 10px;color: #6F6F6F;font-size: 17px;">Make City, UK</span>
+                    </p>
+                </div>
+                
+                <div class="editPart">
+                    <a data-role="button" class="remove" data-bind="click:removeProfile"></a>
+                    <a data-role="button" class="like" data-bind="click:likeProfile"></a>
+                </div>
+            </div>
+            <div class="contentDataDv">
+                
+            </div>
+        </div>
+    </div>
+</div>

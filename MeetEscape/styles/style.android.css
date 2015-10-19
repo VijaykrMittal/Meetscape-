@@ -23,16 +23,17 @@
     #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 15px;font-weight: 500;color:#D5DE23}
     #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
     #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
-    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 16px;font-family: times;font-weight: 500;background-position: 50px 6px;}
+    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 6px;}
+    #loginView .wrapper .btnGrp .signDv a span{margin-left: 10px;}
     #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
-    #loginView .wrapper .btnGrp .signDv .login span{font-size: 16px;}
+    #loginView .wrapper .btnGrp .signDv .login span{font-size: 18px;}
     /*#loginView .wrapper .btnGrp .signDv .fblogin {border: none !important;background: url('./images/fb.png') no-repeat !important;background-size:100px 100px;font-weight: 600 !important;overflow:hidden}*/
     #loginView .wrapper .signupTxt {margin-top:25px;}
     #loginView .wrapper .signupTxt p {text-align:center}
     #loginView .wrapper .signupTxt p span{font-size: 14px;font-weight: 500;color:#fff}
     #loginView .wrapper .signupTxt p a {text-decoration:none;color:#D5DE23;font-weight:bold}
-    /*Signup View*/
     
+    /*Signup View*/
     #signupView .wrapper {width: 90%;margin: 0px auto;  margin-top: 15%;}
     #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
     #signupView .wrapper .picUploadDv P {text-align:center;  margin-top: -15px;}
@@ -62,15 +63,36 @@
     #signupView .wrapper .bottomTxtDv p span{font-size: 14px;font-weight: 500;color:#fff}
     #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold}
     
+    /*Forgot Password*/
+    #forgotPwdView .wrapper {width:90%;height:auto;margin:0px auto}
+    #forgotPwdView .logoTitle{width: 80%;margin: 0px auto;margin: 0% 20% 0 20%;display: inline-block;}
+    #forgotPwdView .logoTitle .logoTitleDv1 {width: 20%;float: left;}
+    #forgotPwdView .logoTitle .logoTitleDv1 img {width:45px}
+    #forgotPwdView .logoTitle .logoTitleDv2 {float: left;width: 80%;margin-top: 5px;}
+    #forgotPwdView .logoTitle .logoTitleDv2 .focus {color:#D5DE47}
+    #forgotPwdView .logoTitle .logoTitleDv2 span {color:#fff;font-size:25px}
+    #forgotPwdView .formFld label {color:#fff}
+    #forgotPwdView .formFld {width:100%;height:auto;margin-top: 10%;}
+    #forgotPwdView .formFld .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #ccc;background-color: #002631;color: #fff;}
+    #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
+    #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
+    .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;}
+    .requestBtnDv .forgotBtn span {font-size:18px;}
+    #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:30%}
+    #forgotPwdView .wrapper .bottomTextData p {text-align:center}
+    #forgotPwdView .wrapper .bottomTextData p span {font-size:18px;color:#fff}
+    #forgotPwdView .wrapper .bottomTextData p a {font-size:18px;color:#D5DE23;text-decoration:none}
+    
+    
     /*Dashboard*/
     .nvbar {background-color:#002631 !important;color:#fff !important }
-    .nvbar .menu {background:url('./images/menu.png') no-repeat !important;}
+    .nvbar .menu {background:url('./images/menu.png') no-repeat !important;padding-left: 40px;padding-bottom: 12px;}
     .nvbar span{font-size: 18px;}
     
     /*Drawer*/
     .drawerListView li:first-child {height: auto;}
     
-    /*Myprofile Dv*/
+    /*My profile Dv*/
     #myprofile .wrapper {width:100%;height:auto;}
     #myprofile .wrapper .picDv {width:100%;height:auto;}
     #myprofile .wrapper .picDv img {width:100%;height:auto}
@@ -80,6 +102,19 @@
     #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
     #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
     #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
+    
+    /*User profile Dv*/
+    #userprofile .wrapper {width:100%;height:auto;}
+    #userprofile .wrapper .picDv {width:100%;height:auto;}
+    #userprofile .wrapper .picDv img {width:100%;height: auto;}
+    #userprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
+    #userprofile .wrapper .titleEditDv .titlePart {width:60%;height:100%;float:left;}
+    #userprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
+    #userprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
+    #userprofile .wrapper .titleEditDv .editPart {width:40%;height:100%;float:left;}
+    #userprofile .wrapper .titleEditDv .editPart .like{background: url('./images/like.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
+    #userprofile .wrapper .titleEditDv .editPart .remove{background: url('./images/remove.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
+    
     
     /*nearby data*/
     #nearbyView .wrapper {width:100%;height:auto;}
@@ -93,4 +128,9 @@
     .main .contentDv p:last-child{text-align:center;font-size: 14px;}
     .main .contentDv p:last-child label {color:#022829;}
     .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    
+    /*BX-SLIDER*/
+    .bx-controls {display:none !important}
+    .bx-viewport {margin-top:-15px;}
+    
 }

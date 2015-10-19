@@ -1,4 +1,4 @@
-#loginView .km-content,#signupView .km-content {background-color:#002631}
+#loginView .km-content,#signupView .km-content,#forgotPwdView .km-content {background-color:#002631}
 #myprofile .km-content {background-color:#fff}
 .removeBlkBtn {border: none !important;background: none !important;margin-left: -15px !important;}
 .removeBlkBtn.k-state-active:active {color:#D5DE23 !important;}
@@ -12,7 +12,7 @@ ol.km-pages {display:none !important;}
 
 
 /*test css*/
-.picDv .photo {
+/*.picDv .photo {
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -22,7 +22,4 @@ ol.km-pages {display:none !important;}
     .photo1 {background-image: url("./images/img1.png");}
     .photo2 {background-image: url("./images/img2.png");}
     .photo3 {background-image: url("./images/img3.png");}
-    .photo4 {background-image: url("./images/img4.png");}
-
-
-
+    .photo4 {background-image: url("./images/img4.png");}*/

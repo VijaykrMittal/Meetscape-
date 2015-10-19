@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="logo">
                 <p>
-                    <img src="styles/images/72.png"/>
+                    <img src="styles/images/logo.png"/>
                 </p>
                 <p>
                     Sign In
@@ -28,7 +28,7 @@
                 </div>
                 <div class="inlineFldRight">
                     <p style="float:right">
-                        <a href="">Forgot Password?</a>
+                        <a href="#forgotPwdView">Forgot Password?</a>
                     </p>
                 </div>
             </div>
@@ -110,6 +110,38 @@
                 <p>
                     <span>Already Have An Account?</span>&nbsp;&nbsp;<a href="#loginView">Click Here</a> 
                 </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Forgot Password-->
+<div data-role="view" id="forgotPwdView">
+    <div data-role="content">
+        <div class="wrapper">
+            <div style="width:100%;height:auto;margin-top:25%">
+                <div class="logoTitle">
+                    <div class="logoTitleDv1"><img src="styles/images/logo.png"/></div>
+                    <div class="logoTitleDv2"><span class="focus">meet</span><span>scape</span></div>
+                </div>
+                <div class="formFld">
+                    <p>
+                        <label>Email</label>
+                    </p>
+                    <p>
+                        <input class="txtfld" type="text" name="email" class="txtfld username" id="forgotemail" placeholder="Email Address"/>
+                    </p>
+                </div>
+                <div class="requestBtnDv">
+                    <p>
+                        <a data-role="button" class="forgotBtn">Request</a>
+                    </p>
+                </div>
+                <div class="bottomTextData">
+                    <p>
+                        <span>Everything is fine?</span>&nbsp;&nbsp;<a href="#loginView">Sign In</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>

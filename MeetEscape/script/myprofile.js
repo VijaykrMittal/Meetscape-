@@ -6,7 +6,7 @@
 
     show:function()
     {
-        $('#scrollView').children().css('height','350px');
+        //alert($('#scrollView').children().css('height'));
     }
         
     });
