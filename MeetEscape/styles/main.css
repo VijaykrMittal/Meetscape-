@@ -1,0 +1,28 @@
+#loginView .km-content,#signupView .km-content {background-color:#002631}
+#myprofile .km-content {background-color:#fff}
+.removeBlkBtn {border: none !important;background: none !important;margin-left: -15px !important;}
+.removeBlkBtn.k-state-active:active {color:#D5DE23 !important;}
+#drawerList .km-scroll-wrapper {background-color: #002631;}
+
+.drawerListView li {background-color: #002631 !important;color:#fff;padding:10px .7em;border-color:#000 !important}
+.drawerListView li:first-child {border-top-width: 0px !important;box-shadow: inset 0 0px 0 rgba(255,255,255,0.2) !important;}
+.drawerListView li:last-child{border-bottom-width: 1px !important;border-color:#33515A !important}
+
+ol.km-pages {display:none !important;}
+
+
+/*test css*/
+.picDv .photo {
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .photo1 {background-image: url("./images/img1.png");}
+    .photo2 {background-image: url("./images/img2.png");}
+    .photo3 {background-image: url("./images/img3.png");}
+    .photo4 {background-image: url("./images/img4.png");}
+
+
+

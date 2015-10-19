@@ -1,0 +1,19 @@
+<div data-role="view" id="nearbyView" data-title="Nearby" data-use-native-scrolling="true" data-model="app.nearbyService.viewModel" data-show="app.nearbyService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" class="filter"></a>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper" id="example">
+             <ul id="nearbyData" data-role="listview" data-template="nearbyDataView" data-bind="source:nearbylistData"></ul>
+            <!--<ul id="myList" data-role="listview"></ul>-->
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="nearbyDataView">
+    <a data-bind="click:simpleTst"> #: name #</a>
+</script>

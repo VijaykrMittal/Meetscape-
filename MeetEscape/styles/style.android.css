@@ -1,0 +1,96 @@
+@media (min-width:0px) and (max-width:390px) {
+    
+    /*Login View*/
+    
+    #loginView .wrapper {width: 90%;margin: 0px auto;}
+    #loginView .logo{width: 100%;margin-top: 15%;margin-bottom: 10%;}
+    #loginView .logo p:nth-child(1) {text-align:center}
+    #loginView .logo p:nth-child(1) img {width:70px;height:70px}
+    #loginView .logo p:nth-child(2) {text-align:center;font-size: 22px;margin: -10px 0 0 0;font-family: -webkit-pictograph;color: #fff;}
+    #loginView .loginfld {width:100%;height:auto;}
+    #loginView .loginfld p:nth-child(1){padding: 0px 0 15px 0;}
+    /*#loginView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
+    #loginView .txtfld{width: 100%;height: 35px;padding-left: 35px;background-color: #002631;color:#fff;border:1px solid #ccc}
+    #loginView .username {background:url(./images/user_icon.png) no-repeat;background-position: 5px 5px;}
+    #loginView .password {background:url(./images/lock.png) no-repeat;background-position: 5px 5px;}
+    #loginView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
+	#loginView .inlineFld {display:inline-block;width:100%}
+    #loginView .inlineFld .inlineFldLeft {float:left;width:50%;}
+    #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 14px;display: inline-block;}
+    #loginView .inlineFld .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
+    #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:15px;font-weight:500;color: #fff;}
+    #loginView .inlineFld .inlineFldRight {float:right;width:50%;}
+    #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 15px;font-weight: 500;color:#D5DE23}
+    #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
+    #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
+    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 16px;font-family: times;font-weight: 500;background-position: 50px 6px;}
+    #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
+    #loginView .wrapper .btnGrp .signDv .login span{font-size: 16px;}
+    /*#loginView .wrapper .btnGrp .signDv .fblogin {border: none !important;background: url('./images/fb.png') no-repeat !important;background-size:100px 100px;font-weight: 600 !important;overflow:hidden}*/
+    #loginView .wrapper .signupTxt {margin-top:25px;}
+    #loginView .wrapper .signupTxt p {text-align:center}
+    #loginView .wrapper .signupTxt p span{font-size: 14px;font-weight: 500;color:#fff}
+    #loginView .wrapper .signupTxt p a {text-decoration:none;color:#D5DE23;font-weight:bold}
+    /*Signup View*/
+    
+    #signupView .wrapper {width: 90%;margin: 0px auto;  margin-top: 15%;}
+    #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
+    #signupView .wrapper .picUploadDv P {text-align:center;  margin-top: -15px;}
+    #signupView .wrapper .signupFormFld{width: 100%;}
+    #signupView .wrapper .signupFormFld .fnametxtfld{height: 35px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #ccc}
+    #signupView .wrapper .signupFormFld .lnametxtfld{height: 35px;padding-left: 7px;width:48%;margin-left:7px;background-color: #002631;color:#fff;border:1px solid #ccc}
+   /* #signupView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
+    #signupView .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #ccc;background-color: #002631;color:#fff}
+    #signupView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
+    #signupView .signupFormFld p {padding: 0px 0 10px 0;}
+    #signupView .termsCondnDv {width:100%;display: inline-block;}
+    #signupView .termsCondnDv .inlineFldLeft {float:left;width:100%;}
+    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 16px;display: inline-block;}
+    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
+    #signupView .termsCondnDv .inlineFldLeft p:nth-child(2){font-size:11px;font-weight:500;color:#fff}
+    .removebtn {border:none !important;background:none !important}
+    .removebtn span {font-size:12px;font-weight:500;color:#D5DE23 !important;}
+    .removebtn:active {border:none !important;background:none !important;color:#D5DE23 !important;}
+    #signupView .wrapper .buttonDv {width:95%;margin:0px auto;margin-top: 10px;}
+    #signupView .wrapper .buttonDv .signDv{width: 98%;margin-bottom: 10px;margin:0px auto}
+    #signupView .wrapper .buttonDv .signDv a {width: 100%;height: 40px;line-height: 20px;font-size: 16px;font-family: times;font-weight: 500;overflow: hidden;}
+    .signupBtn{border:none !important;background:#D5DE23 !important;color:#000 !important;font-weight:600 !important;}
+    .signupBtn.km-state-active{border:none !important;background:#D5DE23 !important;font-weight:600 !important;overflow:hidden !important}
+    
+    #signupView .wrapper .bottomTxtDv {margin-top: 25px;width: 100%;margin-bottom: 25px;}
+    #signupView .wrapper .bottomTxtDv p {text-align:center}
+    #signupView .wrapper .bottomTxtDv p span{font-size: 14px;font-weight: 500;color:#fff}
+    #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold}
+    
+    /*Dashboard*/
+    .nvbar {background-color:#002631 !important;color:#fff !important }
+    .nvbar .menu {background:url('./images/menu.png') no-repeat !important;}
+    .nvbar span{font-size: 18px;}
+    
+    /*Drawer*/
+    .drawerListView li:first-child {height: auto;}
+    
+    /*Myprofile Dv*/
+    #myprofile .wrapper {width:100%;height:auto;}
+    #myprofile .wrapper .picDv {width:100%;height:auto;}
+    #myprofile .wrapper .picDv img {width:100%;height:auto}
+    #myprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
+    #myprofile .wrapper .titleEditDv .titlePart {width:75%;height:100%;float:left;}
+    #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
+    #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
+    #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
+    #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
+    
+    /*nearby data*/
+    #nearbyView .wrapper {width:100%;height:auto;}
+    .nvbar .filter {background:url('./images/filter.png') no-repeat !important;}
+    #myList li {float:left;width:50%}
+    #myList li .main {width: 100%;display: inline-block;}
+    #myList li .main .imgDv{float: left;}
+    #myList li .main .imgDv img {width:100%}
+    #myList li .main .contentDv{float:left;width:100%}
+    .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    .main .contentDv p:last-child{text-align:center;font-size: 14px;}
+    .main .contentDv p:last-child label {color:#022829;}
+    .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+}

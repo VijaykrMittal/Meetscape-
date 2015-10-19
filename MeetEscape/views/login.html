@@ -1,0 +1,116 @@
+<div data-role="view" id="loginView" data-use-native-scrolling="true">
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="logo">
+                <p>
+                    <img src="styles/images/72.png"/>
+                </p>
+                <p>
+                    Sign In
+                </p>
+            </div>
+            <div class="loginfld">
+                <p>
+                    <input type="text" name="username" class="txtfld username" id="username" placeholder="Username"/>
+                </p>
+                <p>
+                    <input type="password" name="password" class="txtfld password" id="password" placeholder="Password"/>
+                </p>
+            </div>
+            <div class="inlineFld">
+                <div class="inlineFldLeft">
+                    <p style="">
+                        <input type="checkbox" name="remember" id="remember"/>
+                    </p>
+                    <p>
+                        <span>Keep Me Login</span>
+                    </p>
+                </div>
+                <div class="inlineFldRight">
+                    <p style="float:right">
+                        <a href="">Forgot Password?</a>
+                    </p>
+                </div>
+            </div>
+            <div class="btnGrp">
+                <div class="signDv">
+                    <a data-role="button" class="login">Sign In</a>
+                </div>
+                <div class="signDv">
+                    <a data-role="button" class="fblogin">Login with facebook</a>
+                </div>
+            </div>
+            <div class="signupTxt">
+                <p>
+                    <span>Don't Have An Account?</span>&nbsp;&nbsp;<a href="#signupView">Click Here</a> 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Signup View-->
+<div data-role="view" id="signupView" data-use-native-scrolling="true">
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="picUploadDv">
+                <p>
+                    <a data-role="button" data-rel="actionsheet" href="#actionsheet" style="border:none;background:none">
+                        <img src="styles/images/photo_upload.png"/>
+                    </a>    
+                </p>
+                
+                <ul id="actionsheet" data-role="actionsheet" data-cancel="Close">
+                    <li><a>Gallery</a></li>
+                    <li><a>Photo</a></li>
+                </ul>
+                
+                <p style="color:#D5DE23">
+                    Tap To Upload Photo
+                </p>
+            </div>
+            <div class="signupFormFld">
+                <p>
+                    <input type="text" name="fname" id="fname" class="fnametxtfld" placeholder="First Name"/>
+                    <input type="text" name="lname" id="lname" class="lnametxtfld" placeholder="Last Name"/>
+                </p>
+                <p>
+                    <input type="text" name="signupEmail" id="signupEmail" class="txtfld" placeholder="Email Address"/>
+                </p>
+                <p>
+                    <input type="text" name="signupUsername" id="signupUsername" class="txtfld" placeholder="Username"/>
+                </p>
+                <p>
+                    <input type="number" name="signupContact" maxlength="10" id="signupContact" class="txtfld" placeholder="Phone Number"/>
+                </p>
+                <p>
+                    <input type="password" name="signupPassword" id="signupPassword" class="txtfld" placeholder="Password"/>
+                </p>
+                <p>
+                    <input type="password" name="signupConfPwd" id="signupConfPwd" class="txtfld" placeholder="Confirm Password"/>
+                </p>
+                
+            </div>
+            <div class="termsCondnDv">
+                <div class="inlineFldLeft">
+                    <p>
+                        <input type="checkbox" name="remember" id="remember"/>
+                    </p>
+                    <p>
+                        Agree with<a data-role="button" class="removebtn" style="margin-left:-5px;margin-right:-5px">Terms & Condition</a>and<a data-role="button" class="removebtn" style="margin-left:-5px;">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <div class="buttonDv">
+                <div class="signDv">
+                    <a data-role="button" class="signupBtn">Register</a>
+                </div>
+            </div>
+            <div class="bottomTxtDv">
+                <p>
+                    <span>Already Have An Account?</span>&nbsp;&nbsp;<a href="#loginView">Click Here</a> 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -3,14 +3,100 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
+    <link href="kendo/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="kendo/styles/kendo.default.min.css" rel="stylesheet" />
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="styles/main.css" rel="stylesheet"/>
+    
 
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
-    <script src="kendo/js/kendo.mobile.min.js"></script>
+    <script src="kendo/js/kendo.all.min.js"></script>
+    <!--<script src="kendo/js/kendo.mobile.min.js"></script>-->
     
 </head>
 <body>
+    <!--<div data-role="layout" id="mainLayout">
+        <div data-role="header">
+            <div data-role="navbar">
+                <a></a>
+                <span></span>
+                <
+            </div>
+        </div>
+    </div>-->
     
+    <div data-role="drawer" id="drawerList" data-swipe-to-open="false">
+        <ul data-role="listview" class="drawerListView">
+            <li>
+                <div style="width: 100%;margin: 0px auto;">
+                    <p style="text-align:center">
+                        <img src="styles/images/photo_upload.png" style="width:80px;border-radius:50%"/>
+                    </p>
+                    <p style="text-align:center">
+                        Dave michalle
+                    </p>
+                    <p style="text-align:center">
+                        27, Alaska
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    Nearby
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/nearby.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    Meet
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/meet.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    Inbox
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/msg.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    Visitors
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/view.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    Favorites
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/favorites.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+            <li>
+                <div style="float:left;  margin-top: 7px;">
+                    More
+                </div>
+                <div style="float:right">
+                    <img src="styles/images/more.png" style="width:30px;height:30px;"/>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <!--external Script file place here-->
+    <script src="script/app.js"></script>
+    <script src="script/myprofile.js"></script>
+    <script src="script/nearby.js"></script>
 </body>
 </html>
