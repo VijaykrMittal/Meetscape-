@@ -33,6 +33,7 @@
     #loginView .wrapper .signupTxt p span{font-size: 14px;font-weight: 500;color:#fff}
     #loginView .wrapper .signupTxt p a {text-decoration:none;color:#D5DE23;font-weight:bold}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*Signup View*/
     #signupView .wrapper {width: 90%;margin: 0px auto;  margin-top: 15%;}
     #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
@@ -63,6 +64,7 @@
     #signupView .wrapper .bottomTxtDv p span{font-size: 14px;font-weight: 500;color:#fff}
     #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*Forgot Password*/
     #forgotPwdView .wrapper {width:90%;height:auto;margin:0px auto}
     #forgotPwdView .logoTitle{width: 80%;margin: 0px auto;margin: 0% 20% 0 20%;display: inline-block;}
@@ -83,12 +85,13 @@
     #forgotPwdView .wrapper .bottomTextData p span {font-size:18px;color:#fff}
     #forgotPwdView .wrapper .bottomTextData p a {font-size:18px;color:#D5DE23;text-decoration:none}
     
-    
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*Dashboard*/
     .nvbar {background-color:#002631 !important;color:#fff !important }
     .nvbar .menu {background:url('./images/menu.png') no-repeat !important;padding-left: 40px;padding-bottom: 12px;}
     .nvbar span{font-size: 18px;}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*Drawer*/
     .drawerListView li:first-child {height: auto;}
     .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
@@ -107,6 +110,7 @@
     .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
     .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*My profile Dv*/
     #myprofile .wrapper {width:100%;height:auto;}
     #myprofile .wrapper .picDv {width:100%;height:auto;}
@@ -130,7 +134,7 @@
     #userprofile .wrapper .titleEditDv .editPart .like{background: url('./images/like.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
     #userprofile .wrapper .titleEditDv .editPart .remove{background: url('./images/remove.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
     
-    
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*nearby data*/
     #nearbyView .wrapper {width:100%;height:auto;}
     #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
@@ -146,10 +150,12 @@
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
     #nearbyView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /*BX-SLIDER*/
     .bx-controls {display:none !important}
     .bx-viewport {margin-top:-15px;}
     
+    /*---------------------------------------------------------------------------------------------------------------------*/
     /* Request View*/
     #requestView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
     
@@ -190,4 +196,12 @@
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
     #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Add Interest View*/
+    #interestView .wrapper {width:95%;height:auto;margin:0px auto}
+    #interestView .wrapper .mainDv {width:100%;height:auto;}
+    #interestView .wrapper .mainDv .textTitle {font-size:25px;}
+    #interestView .wrapper .mainDv .selectBox {width:100%;height:40px}
+    
 }
