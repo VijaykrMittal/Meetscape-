@@ -1,6 +1,6 @@
 (function(global){
     var myProfileViewModel,
-    app = global.app || global.app || {};
+    app = global.app = global.app || {};
 
     myProfileViewModel = kendo.data.ObservableObject.extend({
 

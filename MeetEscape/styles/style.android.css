@@ -38,8 +38,8 @@
     #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
     #signupView .wrapper .picUploadDv P {text-align:center;  margin-top: -15px;}
     #signupView .wrapper .signupFormFld{width: 100%;}
-    #signupView .wrapper .signupFormFld .fnametxtfld{height: 35px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #ccc}
-    #signupView .wrapper .signupFormFld .lnametxtfld{height: 35px;padding-left: 7px;width:48%;margin-left:7px;background-color: #002631;color:#fff;border:1px solid #ccc}
+    #signupView .wrapper .signupFormFld .fnametxtfld{height: 35px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #7E9198}
+    #signupView .wrapper .signupFormFld .lnametxtfld{height: 35px;padding-left: 7px;width:48%;margin-left:7px;background-color: #002631;color:#fff;border:1px solid #7E9198}
    /* #signupView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
     #signupView .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;;background-color: #002631;color:#fff}
     #signupView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
@@ -72,7 +72,7 @@
     #forgotPwdView .logoTitle .logoTitleDv2 .focus {color:#D5DE47}
     #forgotPwdView .logoTitle .logoTitleDv2 span {color:#fff;font-size:25px}
     #forgotPwdView .formFld label {color:#fff}
-    #forgotPwdView .formFld {width:100%;height:auto;margin-top: 10%;}
+    #forgotPwdView .formFld {width:100%;height:auto;margin-top: 20%;}
     #forgotPwdView .formFld .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;background-color: #002631;color: #fff;}
     #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
     #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
@@ -133,16 +133,18 @@
     
     /*nearby data*/
     #nearbyView .wrapper {width:100%;height:auto;}
-    #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;}
-    #myList li {float:left;width:50%}
-    #myList li .main {width: 100%;display: inline-block;}
-    #myList li .main .imgDv{float: left;}
-    #myList li .main .imgDv img {width:100%}
-    #myList li .main .contentDv{float:left;width:100%}
-    .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    .main .contentDv p:last-child{text-align:center;font-size: 14px;}
-    .main .contentDv p:last-child label {color:#022829;}
-    .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
+    #nearbyView ul{margin-top: 20px;}
+    #nearbyView li {float:left;width:50%}
+    #nearbyView li .main {width: 100%;display: inline-block;}
+    #nearbyView li .main .imageDiv{float: left;}
+    #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
+    #nearbyView li .main .contentDv{float:left;width:100%}
+    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
+    #nearbyView li .main .contentDv p:last-child label {color:#022829;}
+    #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    #nearbyView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     
     /*BX-SLIDER*/
     .bx-controls {display:none !important}
@@ -171,4 +173,21 @@
     #settingView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
     #setting_listview li{padding: 15px 15px 15px 15px;}
     #setting_listview li a{font-size: 18px;}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /*Meet View*/
+    #meetView .wrapper {width:100%;height:auto;}
+    #meetView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;margin-left: 10px;}
+    #meetView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #meetView ul{margin-top: 20px;}
+    #meetView li {float:left;width:50%}
+    #meetView li .main {width: 100%;display: inline-block;}
+    #meetView li .main .imageDiv{float: left;}
+    #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
+    #meetView li .main .contentDv{float:left;width:100%}
+    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
+    #meetView li .main .contentDv p:last-child label {color:#022829;}
+    #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
 }
