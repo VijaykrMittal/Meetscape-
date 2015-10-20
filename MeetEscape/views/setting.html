@@ -1,0 +1,27 @@
+<div data-role="view" id="settingView" data-title="Settings" data-model="app.settingService.viewModel" data-show="app.settingService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" class="search" data-bind="click:searchCall"></a>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper">
+            <ul id="setting_listview" data-role="listview">
+                <li>
+                    <a data-role="button">Account Setting</a>
+                </li>
+                <li>
+                    <a data-role="button">Meetscape Plan</a>
+                </li>
+                <li>
+                    <a data-role="button">Account Preferences</a>
+                </li>
+                <li>
+                    <a data-role="button">Notification Setting</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

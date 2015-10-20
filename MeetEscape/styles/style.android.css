@@ -10,7 +10,7 @@
     #loginView .loginfld {width:100%;height:auto;}
     #loginView .loginfld p:nth-child(1){padding: 0px 0 15px 0;}
     /*#loginView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #loginView .txtfld{width: 100%;height: 35px;padding-left: 35px;background-color: #002631;color:#fff;border:1px solid #ccc}
+    #loginView .txtfld{width: 100%;height: 35px;padding-left: 35px;background-color: #002631;color:#fff;border:1px solid #7E9198;}
     #loginView .username {background:url(./images/user_icon.png) no-repeat;background-position: 5px 5px;}
     #loginView .password {background:url(./images/lock.png) no-repeat;background-position: 5px 5px;}
     #loginView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
@@ -41,7 +41,7 @@
     #signupView .wrapper .signupFormFld .fnametxtfld{height: 35px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #ccc}
     #signupView .wrapper .signupFormFld .lnametxtfld{height: 35px;padding-left: 7px;width:48%;margin-left:7px;background-color: #002631;color:#fff;border:1px solid #ccc}
    /* #signupView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #signupView .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #ccc;background-color: #002631;color:#fff}
+    #signupView .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;;background-color: #002631;color:#fff}
     #signupView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
     #signupView .signupFormFld p {padding: 0px 0 10px 0;}
     #signupView .termsCondnDv {width:100%;display: inline-block;}
@@ -73,7 +73,7 @@
     #forgotPwdView .logoTitle .logoTitleDv2 span {color:#fff;font-size:25px}
     #forgotPwdView .formFld label {color:#fff}
     #forgotPwdView .formFld {width:100%;height:auto;margin-top: 10%;}
-    #forgotPwdView .formFld .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #ccc;background-color: #002631;color: #fff;}
+    #forgotPwdView .formFld .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;background-color: #002631;color: #fff;}
     #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
     #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
     .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;}
@@ -91,6 +91,21 @@
     
     /*Drawer*/
     .drawerListView li:first-child {height: auto;}
+    .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
+    .drawerListView .firstchild .profilePic {width: 100%;margin: 0px auto;}
+    .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
+    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 67px;overflow: auto;}
+    .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
+    .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:2px solid #fff}
+    .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
+    .drawerListView .iconDv {width:12%;float:left}
+    .iconDv p {text-align:center;margin:0 0 0 0}
+    .iconDv p img {width:30px;height:30px;}
+    .drawerListView .titleDv {float:left; margin-top: 7px;width:68%}
+    .titleDv span {font-size: 15px;font-family: times;margin-left: 15px;}
+    .drawerListView .badgeDv {float:right;width:20%}
+    .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
+    .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
     
     /*My profile Dv*/
     #myprofile .wrapper {width:100%;height:auto;}
@@ -118,7 +133,7 @@
     
     /*nearby data*/
     #nearbyView .wrapper {width:100%;height:auto;}
-    .nvbar .filter {background:url('./images/filter.png') no-repeat !important;}
+    #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;}
     #myList li {float:left;width:50%}
     #myList li .main {width: 100%;display: inline-block;}
     #myList li .main .imgDv{float: left;}
@@ -133,4 +148,27 @@
     .bx-controls {display:none !important}
     .bx-viewport {margin-top:-15px;}
     
+    /* Request View*/
+    #requestView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    
+    /*20 - 10 - 2010*/
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /*Contact Us View*/
+    #contactView .wrapper {width:90%;height:auto;margin:0px auto;margin-top: 15%;}
+    #contactView .txtfld{width: 100%;height: 35px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
+    #contactView .txtfldarea{width: 100%;height: 100px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
+    #contactView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
+    #contactView .wrapper .title {width:100%;}
+    #contactView .wrapper .title p{text-align: center;font-size: 30px;color: #fff;font-family: times;}
+    #contactView .wrapper .eventBtn {width:92%;margin:0px auto;margin-top:15%}
+    #contactView .wrapper .eventBtn .signDv{width: 100%;margin:0px auto;margin-bottom: 10px;}
+    #contactView .wrapper .eventBtn .signDv .login {width:100%;border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
+    #contactView .wrapper .eventBtn .signDv .login span{font-size: 18px;font-size: 18px;line-height: 27px;font-family: inherit;}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /*Setting*/
+    #settingView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #setting_listview li{padding: 15px 15px 15px 15px;}
+    #setting_listview li a{font-size: 18px;}
 }

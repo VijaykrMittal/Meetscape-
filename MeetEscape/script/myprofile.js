@@ -4,10 +4,22 @@
 
     myProfileViewModel = kendo.data.ObservableObject.extend({
 
-    show:function()
-    {
-        //alert($('#scrollView').children().css('height'));
-    }
+        show:function()
+        {
+            //alert($('#scrollView').children().css('height'));
+        },
+        
+        drawerShow : function()
+        {
+            $(".km-native-scroller").scrollTop(0);
+        },
+        
+        profEditbyDrawer : function()
+        {
+            alert("edit Profile");
+        },
+        
+        
         
     });
     app.profileService = {

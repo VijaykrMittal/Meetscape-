@@ -26,72 +26,205 @@
         </div>
     </div>-->
     
-    <div data-role="drawer" id="drawerList" data-swipe-to-open="false">
+    <div data-role="drawer" id="drawerList" data-use-native-scrolling="true" style="width:80%" data-swipe-to-open="false" data-model="app.profileService.viewModel" data-show="app.profileService.viewModel.drawerShow">
         <ul data-role="listview" class="drawerListView">
-            <li>
-                <div style="width: 100%;margin: 0px auto;">
-                    <p style="text-align:center">
-                        <img src="styles/images/photo_upload.png" style="width:80px;border-radius:50%"/>
+            <li class="firstchild">
+                <div class="profilePic">
+                    <p>
+                        <img src="styles/images/img1.png"/>
+                        <a data-role="button" class="drawerEditBtn fixpos" data-bind="click:profEditbyDrawer"></a>
                     </p>
-                    <p style="text-align:center">
-                        Dave michalle
-                    </p>
-                    <p style="text-align:center">
-                        27, Alaska
+                    <p>
+                        Dave Michalle
                     </p>
                 </div>
             </li>
             <li>
-                <div style="float:left;  margin-top: 7px;">
-                    Nearby
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/msg.png"/>
+                    </p>
                 </div>
-                <div style="float:right">
-                    <img src="styles/images/nearby.png" style="width:30px;height:30px;"/>
+                <div class="titleDv">
+                    <span>Inbox</span>
                 </div>
-            </li>
-            <li>
-                <div style="float:left;  margin-top: 7px;">
-                    Meet
-                </div>
-                <div style="float:right">
-                    <img src="styles/images/meet.png" style="width:30px;height:30px;"/>
-                </div>
-            </li>
-            <li>
-                <div style="float:left;  margin-top: 7px;">
-                    Inbox
-                </div>
-                <div style="float:right">
-                    <img src="styles/images/msg.png" style="width:30px;height:30px;"/>
+                <div class="badgeDv">
+                    <p class="badgeTitle">
+                        10
+                    </p>
                 </div>
             </li>
             <li>
-                <div style="float:left;  margin-top: 7px;">
-                    Visitors
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/meet.png"/>
+                    </p>
                 </div>
-                <div style="float:right">
-                    <img src="styles/images/view.png" style="width:30px;height:30px;"/>
+                <div class="titleDv">
+                    <span>Meet</span>
                 </div>
-            </li>
-            <li>
-                <div style="float:left;  margin-top: 7px;">
-                    Favorites
-                </div>
-                <div style="float:right">
-                    <img src="styles/images/favorites.png" style="width:30px;height:30px;"/>
+                <div class="badgeDv">
+                   
                 </div>
             </li>
             <li>
-                <div style="float:left;  margin-top: 7px;">
-                    More
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/search_ico.png"/>
+                    </p>
                 </div>
-                <div style="float:right">
-                    <img src="styles/images/more.png" style="width:30px;height:30px;"/>
+                <div class="titleDv">
+                    <span>Search</span>
+                </div>
+                <div class="badgeDv">
+                   
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/nearby.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Nearby</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/request.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Request</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/favorites.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Favorites</span>
+                </div>
+                <div class="badgeDv">
+                   
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/view.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Viewed Me</span>
+                </div>
+                <div class="badgeDv">
+                   
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/more.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>More</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/setting.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Setting</span>
+                </div>
+                <div class="badgeDv">
+                   
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/contact.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Contact Us</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/rate_app.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Rate the App</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/privacy.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Privacy Policy</span>
+                </div>
+                <div class="badgeDv">
+                  
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/t&c.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Terms and Conditions</span>
+                </div>
+                <div class="badgeDv">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="iconDv">
+                    <p>
+                        <img src="styles/images/logout.png"/>
+                    </p>
+                </div>
+                <div class="titleDv">
+                    <span>Sign Out</span>
+                </div>
+                <div class="badgeDv">
+                    
                 </div>
             </li>
         </ul>
     </div>
-    
     
     <!--external Script file place here-->
      <script src="script/lib/jquery.bxslider.min.js"></script>
@@ -99,5 +232,8 @@
     <script src="script/myprofile.js"></script>
     <script src="script/nearby.js"></script>
     <script src="script/userprofile.js"></script>
+    <script src="script/request.js"></script>
+    <script src="script/contact.js"></script>
+    <script src="script/setting.js"></script>
 </body>
 </html>
