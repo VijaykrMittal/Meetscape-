@@ -1,7 +1,6 @@
 @media (min-width:0px) and (max-width:390px) {
     
     /*Login View*/
-    
     #loginView .wrapper {width: 90%;margin: 0px auto;}
     #loginView .logo{width: 100%;margin-top: 15%;margin-bottom: 10%;}
     #loginView .logo p:nth-child(1) {text-align:center}
@@ -218,8 +217,6 @@
     #requestView #matchedData .main .time_iconDV p {margin: 25px 0 0 34px;}
     #requestView #matchedData .main .time_iconDV p img {width:35px;height:35px}
     
-    
-    
     /*20 - 10 - 2010*/
     
     /*---------------------------------------------------------------------------------------------------------------------*/
@@ -381,7 +378,6 @@
     #favouriteView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
     #favouriteView #messageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
     #favouriteView #messageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
-    
     
     #favouriteView #sendmessageData {margin-top: 10px}
     #favouriteView #sendmessageData .main {width:100%;height:auto;display:inline-block}
