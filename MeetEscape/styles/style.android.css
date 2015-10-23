@@ -162,19 +162,19 @@
     #requestView .mainTabstrip {width: 100%;height: auto;display: inline-block;border-bottom: 1px solid #ccc;}
   
     #requestView .mainTabstrip .tabstripchild0 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn {width:100%;height:100%;color:#000;background:#fff;border:none}
     #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn span{line-height: 28px;font-size: 13px;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: none;border: none;}
+    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild1 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:none;border:none;font-size: 13px;}
-    /*#requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}*/
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: none;border: none;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #requestView .mainTabstrip .tabstripchild2 .matchedBtn {width:100%;height:100%;color:#000;background:#fff ;border:none}
     #requestView .mainTabstrip .tabstripchild2 .matchedBtn span{line-height: 28px;font-size: 13px;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: none;border: none;}
+    #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: #fff;border: none;}
     
     #requestView #sentRequest {margin-top: 10px}
     #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
