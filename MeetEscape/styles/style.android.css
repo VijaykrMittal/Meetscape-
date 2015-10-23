@@ -167,8 +167,8 @@
     #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild1 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;font-size:13px;}
+    /*#requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}*/
     #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
@@ -176,7 +176,7 @@
     #requestView .mainTabstrip .tabstripchild2 .matchedBtn span{line-height: 28px;font-size: 13px;}
     #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: #fff;border: none;}
     
-    #requestView #sentRequest {margin-top: 10px}
+    /*#requestView #sentRequest {margin-top: 10px}*/
     #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
     #requestView #sentRequest .main .imageDv {width: 25%;float: left;}
     #requestView #sentRequest .main .imageDv img {width:100%}
@@ -190,7 +190,7 @@
     #requestView #sentRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
     #requestView #sentRequest .main .time_iconDV p img {width:35px;height:35px}
     
-    #requestView #acceptRequest {margin-top: 10px}
+    /*#requestView #acceptRequest {margin-top: 10px}*/
     #requestView #acceptRequest .main {width:100%;height:auto;display:inline-block}
     #requestView #acceptRequest .main .imageDv {width: 25%;float: left;}
     #requestView #acceptRequest .main .imageDv img {width:100%}
@@ -204,7 +204,7 @@
     #requestView #acceptRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
     #requestView #acceptRequest .main .time_iconDV p img {width:35px;height:35px}
     
-    #requestView #matchedData {margin-top: 10px}
+    /*#requestView #matchedData {margin-top: 10px}*/
     #requestView #matchedData .main {width:100%;height:auto;display:inline-block}
     #requestView #matchedData .main .imageDv {width: 25%;float: left;}
     #requestView #matchedData .main .imageDv img {width:100%}
