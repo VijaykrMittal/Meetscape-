@@ -1,4 +1,4 @@
-<div data-role="view" id="requestView" data-title="Request" data-model="app.requestService.viewModel" data-show="app.requestService.viewModel.show">
+<div data-role="view" id="requestView" data-title="Requests" data-use-native-scrolling="true" data-model="app.requestService.viewModel" data-show="app.requestService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
@@ -7,6 +7,81 @@
         </div>
     </div>
     <div data-role="content">
-        
+        <div class="wrapper" id="example">
+            <div class="mainTabstrip">
+                <div class="tabstripchild0">
+                    <a data-role="button" class="sendrequestBtn" data-bind="click:getmessagesData" data-id="sendrequest">Send Requests</a>
+                </div>
+                <div class="tabstripchild1">
+                    <a data-role="button" data-bind="click:getmessagesData" data-id="acceptrequest" class="acceptrequest">Accept Requests</a>
+                </div>
+                <div class="tabstripchild2">
+                    <a data-role="button" class="matchedBtn" data-bind="click:getmessagesData" data-id="matched">Matched</a>
+                </div>
+                
+            </div>
+
+            <ul id="sentRequest" data-role="listview" data-template="sentRequestDataView" data-bind="source:sentRequestlistData"></ul>
+            <ul id="acceptRequest" data-role="listview" data-template="acceptRequestDataView" data-bind="source:acceptRequestlistData"></ul>
+            <ul id="matchedData" data-role="listview" data-template="matchedDataView" data-bind="source:matchedlistData"></ul>
+            <!--<ul id="myList" data-role="listview"></ul>-->
+        </div>
     </div>
 </div>
+
+<script type="text/x-kendo-template" id="sentRequestDataView">
+    <div class="main">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p><label>Age : #:data['age']#</label></p>
+            <p><label>Common Interest : #:data['interest']#</label></p>
+        </div>
+        <div class="time_iconDV">
+            <p>
+                <img data-bind="click:listItemSelect" src="styles/images/like.png"/>
+                <img data-bind="click:listItemSelect" src="styles/images/remove.png"/>
+            </p>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="acceptRequestDataView">
+    <div class="main">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p><label>Age : #:data['age']#</label></p>
+            <p><label>Common Interest : #:data['interest']#</label></p>
+        </div>
+        <div class="time_iconDV">
+            <p>
+                <img data-bind="click:listItemSelect" src="styles/images/like.png"/>
+                <img data-bind="click:listItemSelect" src="styles/images/remove.png"/>
+            </p>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="matchedDataView">
+    <div class="main">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p><label>Age : #:data['age']#</label></p>
+            <p><label>Common Interest : #:data['interest']#</label></p>
+        </div>
+        <div class="time_iconDV">
+            <p>
+                <img data-bind="click:listItemSelect" src="styles/images/like.png"/>
+                <img data-bind="click:listItemSelect" src="styles/images/remove.png"/>
+            </p>
+        </div>
+    </div>
+</script>

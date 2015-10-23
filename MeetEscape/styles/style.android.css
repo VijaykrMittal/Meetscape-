@@ -99,7 +99,7 @@
     .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
     .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 67px;overflow: auto;}
     .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
-    .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:2px solid #fff}
+    .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:0px solid #fff}
     .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
     .drawerListView .iconDv {width:12%;float:left}
     .iconDv p {text-align:center;margin:0 0 0 0}
@@ -157,7 +157,68 @@
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Request View*/
+    #requestView .wrapper {width:100%;height:auto;}
     #requestView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #requestView .mainTabstrip {width: 100%;height: auto;display: inline-block;border-bottom: 1px solid #ccc;}
+  
+    #requestView .mainTabstrip .tabstripchild0 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn span{line-height: 28px;font-size: 13px;}
+    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: none;border: none;}
+    
+    #requestView .mainTabstrip .tabstripchild1 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:none;border:none;font-size: 13px;}
+    /*#requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}*/
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: none;border: none;}
+    
+    #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
+    #requestView .mainTabstrip .tabstripchild2 .matchedBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #requestView .mainTabstrip .tabstripchild2 .matchedBtn span{line-height: 28px;font-size: 13px;}
+    #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: none;border: none;}
+    
+    #requestView #sentRequest {margin-top: 10px}
+    #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
+    #requestView #sentRequest .main .imageDv {width: 25%;float: left;}
+    #requestView #sentRequest .main .imageDv img {width:100%}
+    #requestView #sentRequest .main .contentDv {width: 42%;float: left;margin-top:15px}
+    #requestView #sentRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #requestView #sentRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
+    #requestView #sentRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #requestView #sentRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
+    #requestView #sentRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
+    #requestView #sentRequest .main .time_iconDV{width: 33%;float:left}
+    #requestView #sentRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
+    #requestView #sentRequest .main .time_iconDV p img {width:35px;height:35px}
+    
+    #requestView #acceptRequest {margin-top: 10px}
+    #requestView #acceptRequest .main {width:100%;height:auto;display:inline-block}
+    #requestView #acceptRequest .main .imageDv {width: 25%;float: left;}
+    #requestView #acceptRequest .main .imageDv img {width:100%}
+    #requestView #acceptRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
+    #requestView #acceptRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #requestView #acceptRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
+    #requestView #acceptRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #requestView #acceptRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
+    #requestView #acceptRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
+    #requestView #acceptRequest .main .time_iconDV{width:33%;float:left}
+    #requestView #acceptRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
+    #requestView #acceptRequest .main .time_iconDV p img {width:35px;height:35px}
+    
+    #requestView #matchedData {margin-top: 10px}
+    #requestView #matchedData .main {width:100%;height:auto;display:inline-block}
+    #requestView #matchedData .main .imageDv {width: 25%;float: left;}
+    #requestView #matchedData .main .imageDv img {width:100%}
+    #requestView #matchedData .main .contentDv {width: 42%;float: left;margin-top: 15px;}
+    #requestView #matchedData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #requestView #matchedData .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
+    #requestView #matchedData .main .contentDv p:nth-child(2) label{font-size: 13px;}
+    #requestView #matchedData .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
+    #requestView #matchedData .main .contentDv p:nth-child(3) label {font-size: 13px;}
+    #requestView #matchedData .main .time_iconDV{width:33%;float:left;}
+    #requestView #matchedData .main .time_iconDV p {margin: 25px 0 0 34px;}
+    #requestView #matchedData .main .time_iconDV p img {width:35px;height:35px}
+    
+    
     
     /*20 - 10 - 2010*/
     
@@ -204,4 +265,131 @@
     #interestView .wrapper .mainDv .textTitle {font-size:25px;}
     #interestView .wrapper .mainDv .selectBox {width:100%;height:40px}
     
-}
+    /*23-10-2015*/
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Report User View*/
+    #reportuserView .wrapper {width:100%;height:auto;margin:0px auto}
+    #reportuserView .wrapper .formfld1 {width:100%;height:auto;}
+    #reportuserView .wrapper .formfld1 label{font-size:16px}
+    #reportuserView .wrapper .formfld2 {width:100%;height:auto;}
+    #reportuserView .wrapper .formfld2 .reasontxtFld{width:100%;height:100px;border: 1px solid #ccc;}
+    #reportuserView .wrapper .formSubmit {width:100%;height:auto;  margin-top: 30px;}
+    #reportuserView .wrapper .formSubmit a {border: none !important;background: #D5DE23 !important;color: #000 !important;overflow:hidden;height: 45px;width: 100%;line-height: 26px;font-size: 19px;font-family: sans-serif;}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Notification View*/
+    #notificationView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #notificationView #notificationData li{margin-top: 0px}
+    #notificationView #notificationData .main {width:100%;height:auto;display:inline-block}
+    #notificationView #notificationData .main .imageDv {width: 25%;float: left;}
+    #notificationView #notificationData .main .imageDv img {width:100%}
+    #notificationView #notificationData .main .contentDv {width: 75%;float: left;}
+    #notificationView #notificationData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #notificationView #notificationData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #notificationView #notificationData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
+    #notificationView #notificationData .main .time_iconDV p {font-size:13px}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Search View*/
+    #searchView .wrapper {width:100%;height:auto;}
+    #searchView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
+    #searchView .wrapper .searchFldDv {width:100%;height:auto;}
+    #searchView .wrapper .searchFldDv p{margin: 15px 9px 0px 9px;}
+    #searchView .wrapper .searchFldDv input {width:100%;height:35px;padding-left:7px;border:1px solid #ccc;background:url('./images/search_gray.png') no-repeat;background-size:25px 25px;background-position: 98% 3px;}
+    
+    #searchView ul{margin-top: 20px;}
+    #searchView li {float:left;width:50%}
+    #searchView li .main {width: 100%;display: inline-block;}
+    #searchView li .main .imageDiv{float: left;}
+    #searchView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
+    #searchView li .main .contentDv{float:left;width:100%}
+    #searchView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    #searchView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
+    #searchView li .main .contentDv p:last-child label {color:#022829;margin-top:-4px;margin-left:4px;float:left}
+    #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360}
+    #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Viewed Me View*/
+    
+    #viewedmeView .wrapper {width:100%;height:auto;}
+    #viewedmeView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
+   
+    #viewedmeView ul{margin-top: 20px;}
+    #viewedmeView li {float:left;width:50%}
+    #viewedmeView li .main {width: 100%;display: inline-block;}
+    #viewedmeView li .main .imageDiv{float: left;}
+    #viewedmeView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
+    #viewedmeView li .main .contentDv{float:left;width:100%}
+    #viewedmeView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;margin: 10px 0 0 0;}
+    #viewedmeView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Message View*/
+    #messageView .wrapper {width:100%;height:auto;}
+    #messageView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #messageView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
+    #messageView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #messageView .mainTabstrip .tabstripchild1 .messageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #messageView .mainTabstrip .tabstripchild1 .messageBtn span{line-height: 28px;font-size: 16px;}
+    #messageView .mainTabstrip .tabstripchild1 .messageBtn:active {background: none;border: none;}
+    #messageView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
+    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #messageView .mainTabstrip .tabstripchild2 span{line-height: 28px;font-size: 16px;}
+    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn:active {background: none;border: none;}
+    
+    #messageView #messageData {margin-top: 10px}
+    #messageView #messageData .main {width:100%;height:auto;display:inline-block}
+    #messageView #messageData .main .imageDv {width: 25%;float: left;}
+    #messageView #messageData .main .imageDv img {width:100%}
+    #messageView #messageData .main .contentDv {width: 75%;float: left;}
+    #messageView #messageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #messageView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #messageView #messageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
+    #messageView #messageData .main .time_iconDV p {font-size:13px}
+    
+    #messageView #sendmessageData {margin-top: 10px}
+    #messageView #sendmessageData .main {width:100%;height:auto;display:inline-block}
+    #messageView #sendmessageData .main .imageDv {width: 25%;float: left;}
+    #messageView #sendmessageData .main .imageDv img {width:100%}
+    #messageView #sendmessageData .main .contentDv {width: 75%;float: left;}
+    #messageView #sendmessageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #messageView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #messageView #sendmessageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
+    #messageView #sendmessageData .main .time_iconDV p {font-size:13px}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Favourite View*/
+    #favouriteView .wrapper {width:100%;height:auto;}
+    #favouriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #favouriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn span{line-height: 28px;font-size: 16px;}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn:active {background: none;border: none;}
+    #favouriteView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild2 .sendmessageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #favouriteView .mainTabstrip .tabstripchild2 span{line-height: 28px;font-size: 16px;}
+    #favouriteView .mainTabstrip .tabstripchild2 .sendmessageBtn:active {background: none;border: none;}
+    
+    #favouriteView #messageData {margin-top: 10px}
+    #favouriteView #messageData .main {width:100%;height:auto;display:inline-block}
+    #favouriteView #messageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #messageData .main .imageDv img {width:100%}
+    #favouriteView #messageData .main .contentDv {width: 75%;float: left;}
+    #favouriteView #messageData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
+    #favouriteView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #favouriteView #messageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #messageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
+    
+    
+    #favouriteView #sendmessageData {margin-top: 10px}
+    #favouriteView #sendmessageData .main {width:100%;height:auto;display:inline-block}
+    #favouriteView #sendmessageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #sendmessageData .main .imageDv img {width:100%}
+    #favouriteView #sendmessageData .main .contentDv {width: 75%;float: left;}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #favouriteView #sendmessageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #sendmessageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
+ }

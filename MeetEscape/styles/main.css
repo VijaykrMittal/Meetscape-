@@ -1,5 +1,5 @@
 #loginView .km-content,#signupView .km-content,#forgotPwdView .km-content,#contactView .km-content{background-color:#002631}
-#myprofile .km-content,#termsConditionView .km-content,#settingView .km-content {background-color:#fff}
+#myprofile .km-content,#termsConditionView .km-content,#settingView .km-content,#interestView .km-content ,#reportuserView .km-content,#messageView .km-content{background-color:#fff}
 
 .removeBlkBtn {border: none !important;background: none !important;margin-left: -15px !important;}
 .removeBlkBtn.k-state-active:active {color:#D5DE23 !important;}
@@ -14,20 +14,4 @@
 .drawerListView li:last-child{border-bottom-width: 1px !important;border-color:#33515A !important}*/
 
 ol.km-pages {display:none !important;}
-.km-android .km-listview-wrapper {
-          -webkit-transform: none !important;
-      }
-
-
-/*test css*/
-/*.picDv .photo {
-        display: inline-block;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-    .photo1 {background-image: url("./images/img1.png");}
-    .photo2 {background-image: url("./images/img2.png");}
-    .photo3 {background-image: url("./images/img3.png");}
-    .photo4 {background-image: url("./images/img4.png");}*/
+#sendmessageData,#sentRequest {display:none}

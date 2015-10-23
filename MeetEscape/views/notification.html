@@ -1,0 +1,30 @@
+<div data-role="view" id="notificationView" data-title="Notification" data-use-native-scrolling="true" data-model="app.notificationService.viewModel" data-show="app.notificationService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" class="search" data-bind="click:searchCall"></a>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper" id="example">
+             <ul id="notificationData" data-role="listview" data-template="notificationDataView" data-bind="source:notificationlistData"></ul>
+            <!--<ul id="myList" data-role="listview"></ul>-->
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="notificationDataView">
+    <div class="main" data-name="#:data['name']#" data-bind="click:listItemSelect">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p>#:data['des']#</p>
+        </div>
+        <div class="time_iconDV">
+            <p>12:00PM</p>
+        </div>
+    </div>
+</script>
