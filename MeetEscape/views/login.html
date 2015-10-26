@@ -150,7 +150,7 @@
 
 
 <!--Verification Modal View-->
-<div data-role="modalview" id="verification" style="width:90%;height:170px">
+<div data-role="modalview" id="verification" style="width:90%;height:160px" data-model="app.signupService.viewModel">
     <div data-role="header">
         <div data-role="navbar">
             <span>Verification Code</span>
@@ -158,21 +158,25 @@
     </div>
     <div data-role="content">
         <p>
-            <input name="verificationcode" id="verificationcode"/>
+           <label class="myText">
+               Enter Code
+               <input name="verificationcode" id="verificationcode" class="verfTxtfld"/>
+           </label>    
+        </p>
+        <p style="text-align:center">
+            <a data-role="button" class="codeSub" data-bind="click:successVerfCode">OK</a>
         </p>
     </div>
-    <div data-role="footer">
-        <a data-role="button">OK</a>
-    </div>
 </div>
+
 
 <script>
     function hello()
     {
         $("#verification").data("kendoMobileModalView").open();
         $("#verificationcode").kendoMaskedTextBox({
-    mask: "(000) 000-0000"
-});
+            mask: "0000"
+        });
         //alert("call");
     }
 </script>

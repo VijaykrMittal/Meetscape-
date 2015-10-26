@@ -6,7 +6,12 @@
         
         show:function()
         {
-            alert("sdsdsd");
+            //alert("sdsdsd");
+        },
+        
+        successVerfCode:function()
+        {
+            app.apps.navigate('views/dashboard.html');
         }
     });
     

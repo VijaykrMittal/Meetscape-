@@ -429,4 +429,11 @@
     #createProfileView .wrapper .subfrmDv .subbtn {width:100%;height:40px;color:#000 !important;background:#D5DE23 !important}
     #createProfileView .wrapper .subfrmDv .subbtn span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
     #createProfileView .wrapper .subfrmDv .subbtn:active {background:#D5DE23 !important;color:#000 !important;}
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Verification Modalview*/
+    #verification .myText {font-size:15px;}
+    #verification .verfTxtfld {  margin-left: 10px;width: 60%;height: 35px;}
+    #verification .codeSub {width: 88%;height: 35px;line-height: 20px;background:#D5ED23 !important;color:#000 !important;}
+    #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
  }

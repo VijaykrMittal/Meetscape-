@@ -9,7 +9,7 @@
         
         loginShow:function()
         {
-            alert("login");
+           // alert("login");
             app.loginService.viewModel.resetLoginFld();
         },
         
@@ -23,6 +23,7 @@
             dataParam['Password'] = login_password;
             
             console.log(dataParam);
+            app.apps.navigate('views/dashboard.html');
         },
         
         resetLoginFld : function()
