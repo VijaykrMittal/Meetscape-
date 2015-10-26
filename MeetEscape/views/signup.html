@@ -1,4 +1,4 @@
-<div data-role="view" id="signupView" data-use-native-scrolling="true">
+<div data-role="view" id="signupView" data-use-native-scrolling="true" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
     <div data-role="content">
         <div class="wrapper">
             <div class="picUploadDv">
@@ -45,7 +45,7 @@
             </div>
             <div class="buttonDv">
                 <div class="signDv">
-                    <a data-role="button" class="signupBtn">Register</a>
+                    <a data-role="button" class="signupBtn" data-click="hello">Register</a>
                 </div>
             </div>
             <div class="bottomTxtDv">
@@ -56,3 +56,6 @@
         </div>
     </div>
 </div>
+
+
+

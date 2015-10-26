@@ -81,8 +81,8 @@
     .requestBtnDv .forgotBtn span {font-size:18px;}
     #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:30%}
     #forgotPwdView .wrapper .bottomTextData p {text-align:center}
-    #forgotPwdView .wrapper .bottomTextData p span {font-size:18px;color:#fff}
-    #forgotPwdView .wrapper .bottomTextData p a {font-size:18px;color:#D5DE23;text-decoration:none}
+    #forgotPwdView .wrapper .bottomTextData p span {font-size:16px;color:#fff}
+    #forgotPwdView .wrapper .bottomTextData p a {font-size:16px;color:#D5DE23;text-decoration:none}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /*Dashboard*/
@@ -388,4 +388,45 @@
     #favouriteView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
     #favouriteView #sendmessageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
     #favouriteView #sendmessageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
+    
+    /*26-10-2015*/
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* visitor View*/
+    #visitorView .wrapper {width:100%;height:auto;}
+    #visitorView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    
+    #visitorView #visitorData {margin-top: 10px}
+    #visitorView #visitorData .main {width:100%;height:auto;display:inline-block}
+    #visitorView #visitorData .main .imageDv {width: 25%;float: left;}
+    #visitorView #visitorData .main .imageDv img {width:100%}
+    #visitorView #visitorData .main .contentDv {width: 75%;float: left;}
+    #visitorView #visitorData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
+    #visitorView #visitorData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #visitorView #visitorData .main .time_iconDV{position: absolute;top: 8px;right: 0;overflow:auto}
+    /*#visitorView #visitorData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}*/
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* create Profile View*/
+    #createProfileView .wrapper {width:100%;height:auto;}
+    #createProfileView .wrapper .hdprofDv {width:100%;height:auto;}
+    #createProfileView .wrapper .hdprofDv .innerprofDv {width:100%;height:auto;margin-top:12%}
+    #createProfileView .wrapper .hdprofDv .innerprofDv p {text-align:center}
+    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(1) img {width:135px;height:135px;box-shadow: 0px 0px 20px 8px #ddd}
+    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(2) {font-size:20px}
+    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(3) {font-size: 18px;margin: -12px 0 0 0;}
+    #createProfileView .wrapper .frmfldDv {width:95%;height:auto;margin:0px auto;margin-top:10%}
+    #createProfileView .wrapper .frmfldDv .sinfldDv {width:100%;height:auto;  margin-top: 6%;}
+    #createProfileView .wrapper .frmfldDv .sinfldDv label {font-size:18px;color:#000}
+    #createProfileView .wrapper .frmfldDv .sinfldDv p {padding:15px 5px 15px 5px;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
+    #createProfileView .wrapper .frmfldDv .sinfldDv .article {padding:0px 0px 0px 0px !important;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
+    #createProfileView .wrapper .frmfldDv .sinfldDv .drpdwn {width:100%;height:35px;border:none;background-color: #fff;}
+    #createProfileView .wrapper .frmfldDv .sinfldDv .txtara{width: 100%;height: 120px;border: 1px solid #ddd;}
+    #createProfileView .wrapper .frmfldDv .sinfldDv .txtint{width: 80%;height: 35px;border: none;padding-left:7px}
+    .ethnicity {float:right}
+    .labeltxt {font-size:16px !important;color:#4c5356 !important}
+    #createProfileView .wrapper .subfrmDv {width:100%;height:auto;margin: 50px 0 30px 0;}
+    #createProfileView .wrapper .subfrmDv .subbtn {width:100%;height:40px;color:#000 !important;background:#D5DE23 !important}
+    #createProfileView .wrapper .subfrmDv .subbtn span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
+    #createProfileView .wrapper .subfrmDv .subbtn:active {background:#D5DE23 !important;color:#000 !important;}
  }

@@ -1,4 +1,4 @@
-<div data-role="view" id="loginView" data-use-native-scrolling="true">
+<div data-role="view" id="loginView" data-use-native-scrolling="true" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.loginShow">
     <div data-role="content">
         <div class="wrapper">
             <div class="logo">
@@ -11,10 +11,10 @@
             </div>
             <div class="loginfld">
                 <p>
-                    <input type="text" name="username" class="txtfld username" id="username" placeholder="Username"/>
+                    <input type="text" name="username" class="txtfld username" data-bind="value:username" id="username" placeholder="Username"/>
                 </p>
                 <p>
-                    <input type="password" name="password" class="txtfld password" id="password" placeholder="Password"/>
+                    <input type="password" name="password" class="txtfld password" data-bind="value:password" id="password" placeholder="Password"/>
                 </p>
             </div>
             <div class="inlineFld">
@@ -34,7 +34,7 @@
             </div>
             <div class="btnGrp">
                 <div class="signDv">
-                    <a data-role="button" class="login">Sign In</a>
+                    <a data-role="button" class="login" data-bind="click:loginSubmit">Sign In</a>
                 </div>
                 <div class="signDv">
                     <a data-role="button" class="fblogin">Login with facebook</a>
@@ -50,7 +50,7 @@
 </div>
 
 <!--Signup View-->
-<div data-role="view" id="signupView" data-use-native-scrolling="true">
+<div data-role="view" id="signupView" data-use-native-scrolling="true" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
     <div data-role="content">
         <div class="wrapper">
             <div class="picUploadDv">
@@ -103,7 +103,7 @@
             </div>
             <div class="buttonDv">
                 <div class="signDv">
-                    <a data-role="button" class="signupBtn">Register</a>
+                    <a data-role="button" class="signupBtn" data-click="hello">Register</a>
                 </div>
             </div>
             <div class="bottomTxtDv">
@@ -146,3 +146,33 @@
         </div>
     </div>
 </div>
+
+
+
+<!--Verification Modal View-->
+<div data-role="modalview" id="verification" style="width:90%;height:170px">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span>Verification Code</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <p>
+            <input name="verificationcode" id="verificationcode"/>
+        </p>
+    </div>
+    <div data-role="footer">
+        <a data-role="button">OK</a>
+    </div>
+</div>
+
+<script>
+    function hello()
+    {
+        $("#verification").data("kendoMobileModalView").open();
+        $("#verificationcode").kendoMaskedTextBox({
+    mask: "(000) 000-0000"
+});
+        //alert("call");
+    }
+</script>

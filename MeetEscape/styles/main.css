@@ -1,5 +1,5 @@
 #loginView .km-content,#signupView .km-content,#forgotPwdView .km-content,#contactView .km-content{background-color:#002631}
-#myprofile .km-content,#termsConditionView .km-content,#settingView .km-content,#interestView .km-content ,#reportuserView .km-content,#messageView .km-content{background-color:#fff}
+#myprofile .km-content,#termsConditionView .km-content,#settingView .km-content,#interestView .km-content ,#reportuserView .km-content,#messageView .km-content,#createProfileView .km-content{background-color:#fff}
 
 .removeBlkBtn {border: none !important;background: none !important;margin-left: -15px !important;}
 .removeBlkBtn.k-state-active:active {color:#D5DE23 !important;}
@@ -15,3 +15,38 @@
 
 ol.km-pages {display:none !important;}
 #sendmessageData,#sentRequest {display:none}
+
+
+
+.multiselect {
+        width: 200px;
+    }
+    .selectBox {
+        position: relative;
+        padding: 15px 5px 15px 5px;
+       /* border-bottom: 1px solid #ccc;*/
+        margin: 10px 0 5px 0;
+    }
+    .selectBox select {
+        width: 100%;
+        /*font-weight: bold;*/
+        height: 35px;
+        border: none;
+        background-color: #fff;
+    }
+    .overSelect {
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
+    }
+    #checkboxes {
+        display: none;
+        border: 1px #dadada solid;
+        width: 95%;
+        margin: 0px auto;
+    }
+    #checkboxes label {
+        display: block;
+    }
+    #checkboxes label:hover {
+        background-color: #1e90ff;
+    }
