@@ -16,7 +16,7 @@
         
         policyshow:function()
         {
-             alert("Privacy policy Show");
+            // alert("Privacy policy Show");
         },
         
         searchCall : function()
