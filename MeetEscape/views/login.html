@@ -150,20 +150,20 @@
 
 
 <!--Verification Modal View-->
-<div data-role="modalview" id="verification" style="width:90%;height:160px" data-model="app.signupService.viewModel">
+<div data-role="modalview" id="verification" style="width:80%;" data-model="app.signupService.viewModel">
     <div data-role="header">
-        <div data-role="navbar">
+        <div data-role="navbar" class="navbar">
             <span>Verification Code</span>
         </div>
     </div>
     <div data-role="content">
-        <p style="text-align:center">
-           <label class="myText">
-               Enter Code
-               <input name="verificationcode" id="verificationcode" class="verfTxtfld"/>
-           </label>    
+        <p class="txtfldP">
+           <!--<label class="myText">
+               Enter Code-->
+               <input name="verificationcode" id="verificationcode" class="verfTxtfld" placeholder="Enter Code"/>
+           <!--</label>   --> 
         </p>
-        <p style="text-align:center">
+        <p class="btnP">
             <a data-role="button" class="codeSub" data-bind="click:successVerfCode">OK</a>
         </p>
     </div>

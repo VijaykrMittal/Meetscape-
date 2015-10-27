@@ -66,6 +66,7 @@
     #signupView .wrapper .bottomTxtDv p span{font-size: 16px;font-weight: 500;color:#fff}
     #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold;font-size:16px}
     
+    
     /*---------------------------------------------------------------------------------------------------------------------*/
     /*Forgot Password*/
     #forgotPwdView .wrapper {width:80%;height:auto;margin:0px auto}
@@ -100,18 +101,18 @@
     .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
     .drawerListView .firstchild .profilePic {width: 100%;margin: 0px auto;}
     .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 67px;overflow: auto;}
+    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 137px;right: 160px;overflow: auto;}
     .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
     .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:0px solid #fff}
     .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
     .drawerListView .iconDv {width:12%;float:left}
-    .iconDv p {text-align:center;margin:0 0 0 0}
-    .iconDv p img {width:30px;height:30px;}
-    .drawerListView .titleDv {float:left; margin-top: 7px;width:68%}
-    .titleDv span {font-size: 15px;font-family: times;margin-left: 15px;}
+    .iconDv p {text-align:center;margin:3px 0 0 0}
+    .iconDv p img {width:40px;height:40px;}
+    .drawerListView .titleDv {float:left; margin-top: 12px;width:68%}
+    .titleDv span {font-size: 18px;font-family: times;margin-left: 15px;}
     .drawerListView .badgeDv {float:right;width:20%}
     .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
-    .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
+    .badgeDv .badgeTitle {margin: 10px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /*My profile Dv*/
@@ -142,7 +143,7 @@
     #nearbyView .wrapper {width:100%;height:auto;}
     #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
     #nearbyView ul{margin-top: 20px;}
-    #nearbyView li {float:left;width:50%}
+    #nearbyView li {float:left;width:33%;margin-left: 1px;}
     #nearbyView li .main {width: 100%;display: inline-block;}
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
@@ -170,8 +171,8 @@
     #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild1 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;font-size:13px;}
-    /*#requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}*/
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;}
+    #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}
     #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
     
     #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
@@ -181,45 +182,45 @@
     
     /*#requestView #sentRequest {margin-top: 10px}*/
     #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #sentRequest .main .imageDv {width: 25%;float: left;}
+    #requestView #sentRequest .main .imageDv {width: 16%;float: left;}
     #requestView #sentRequest .main .imageDv img {width:100%}
-    #requestView #sentRequest .main .contentDv {width: 42%;float: left;margin-top:15px}
-    #requestView #sentRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #requestView #sentRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
+    #requestView #sentRequest .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
+    #requestView #sentRequest .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
+    #requestView #sentRequest .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
     #requestView #sentRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
-    #requestView #sentRequest .main .time_iconDV{width: 33%;float:left}
-    #requestView #sentRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
-    #requestView #sentRequest .main .time_iconDV p img {width:35px;height:35px}
+    #requestView #sentRequest .main .contentDv p:nth-child(3) label{font-size: 16px;}
+    #requestView #sentRequest .main .time_iconDV{width:42%;float:left}
+    #requestView #sentRequest .main .time_iconDV p {margin: 30px 0 0 130px;}
+    #requestView #sentRequest .main .time_iconDV p img {width:50px;height:50px}
     
     /*#requestView #acceptRequest {margin-top: 10px}*/
     #requestView #acceptRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #acceptRequest .main .imageDv {width: 25%;float: left;}
+    #requestView #acceptRequest .main .imageDv {width: 16%;float: left;}
     #requestView #acceptRequest .main .imageDv img {width:100%}
     #requestView #acceptRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
+    #requestView #acceptRequest .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
+    #requestView #acceptRequest .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
+    #requestView #acceptRequest .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
     #requestView #acceptRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
-    #requestView #acceptRequest .main .time_iconDV{width:33%;float:left}
-    #requestView #acceptRequest .main .time_iconDV p {margin: 25px 0 0 34px;}
-    #requestView #acceptRequest .main .time_iconDV p img {width:35px;height:35px}
+    #requestView #acceptRequest .main .contentDv p:nth-child(3) label{font-size: 16px;}
+    #requestView #acceptRequest .main .time_iconDV{width:42%;float:left}
+    #requestView #acceptRequest .main .time_iconDV p {margin: 30px 0 0 130px;}
+    #requestView #acceptRequest .main .time_iconDV p img {width:50px;height:50px}
     
     /*#requestView #matchedData {margin-top: 10px}*/
     #requestView #matchedData .main {width:100%;height:auto;display:inline-block}
-    #requestView #matchedData .main .imageDv {width: 25%;float: left;}
+    #requestView #matchedData .main .imageDv {width: 16%;float: left;}
     #requestView #matchedData .main .imageDv img {width:100%}
     #requestView #matchedData .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #matchedData .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(2) label{font-size: 13px;}
+    #requestView #matchedData .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
+    #requestView #matchedData .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
+    #requestView #matchedData .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
     #requestView #matchedData .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(3) label {font-size: 13px;}
-    #requestView #matchedData .main .time_iconDV{width:33%;float:left;}
-    #requestView #matchedData .main .time_iconDV p {margin: 25px 0 0 34px;}
-    #requestView #matchedData .main .time_iconDV p img {width:35px;height:35px}
+    #requestView #matchedData .main .contentDv p:nth-child(3) label{font-size: 16px;}
+    #requestView #matchedData .main .time_iconDV{width:42%;float:left}
+    #requestView #matchedData .main .time_iconDV p {margin: 30px 0 0 130px;}
+    #requestView #matchedData .main .time_iconDV p img {width:50px;height:50px}
     
     /*20 - 10 - 2010*/
     
@@ -248,7 +249,7 @@
     #meetView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;margin-left: 10px;}
     #meetView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
     #meetView ul{margin-top: 20px;}
-    #meetView li {float:left;width:50%}
+    #meetView li {float:left;width:33%;margin-left: 1px;}
     #meetView li .main {width: 100%;display: inline-block;}
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
@@ -299,7 +300,7 @@
     #searchView .wrapper .searchFldDv input {width:100%;height:35px;padding-left:7px;border:1px solid #ccc;background:url('./images/search_gray.png') no-repeat;background-size:25px 25px;background-position: 98% 3px;}
     
     #searchView ul{margin-top: 20px;}
-    #searchView li {float:left;width:50%}
+    #searchView li {float:left;width:33%;margin-left: 1px;}
     #searchView li .main {width: 100%;display: inline-block;}
     #searchView li .main .imageDiv{float: left;}
     #searchView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
@@ -317,7 +318,7 @@
     #viewedmeView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
    
     #viewedmeView ul{margin-top: 20px;}
-    #viewedmeView li {float:left;width:50%}
+    #viewedmeView li {float:left;width:33%;margin-left:1px}
     #viewedmeView li .main {width: 100%;display: inline-block;}
     #viewedmeView li .main .imageDiv{float: left;}
     #viewedmeView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
@@ -375,22 +376,22 @@
     
     #favouriteView #messageData {margin-top: 10px}
     #favouriteView #messageData .main {width:100%;height:auto;display:inline-block}
-    #favouriteView #messageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #messageData .main .imageDv {width: 16%;float: left;}
     #favouriteView #messageData .main .imageDv img {width:100%}
     #favouriteView #messageData .main .contentDv {width: 75%;float: left;}
-    #favouriteView #messageData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
-    #favouriteView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #favouriteView #messageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #messageData .main .contentDv p:nth-child(1) {margin: 15px 0 5px 15px;/*font-weight: bold;*/;font-size: 20px;}
+    #favouriteView #messageData .main .contentDv p:nth-child(2) {font-size: 16px;/*text-align: justify;*/margin: 12px 0 0 15px;}
+    #favouriteView #messageData .main .time_iconDV{position: absolute;top: 20px;right: 0;overflow:auto}
     #favouriteView #messageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
     
     #favouriteView #sendmessageData {margin-top: 10px}
     #favouriteView #sendmessageData .main {width:100%;height:auto;display:inline-block}
-    #favouriteView #sendmessageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #sendmessageData .main .imageDv {width: 16%;float: left;}
     #favouriteView #sendmessageData .main .imageDv img {width:100%}
     #favouriteView #sendmessageData .main .contentDv {width: 75%;float: left;}
-    #favouriteView #sendmessageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #favouriteView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #favouriteView #sendmessageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(1) {margin: 15px 0 5px 15px;/*font-weight: bold;*/font-size:20px}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 16px;/*text-align: justify*/;margin: 12px 0 0 15px;}
+    #favouriteView #sendmessageData .main .time_iconDV{position: absolute;top: 20px;right: 0;overflow:auto}
     #favouriteView #sendmessageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
     
     /*26-10-2015*/
@@ -437,10 +438,14 @@
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Verification Modalview*/
     #verification .myText {font-size:15px;}
-    #verification .verfTxtfld {  margin-left: 10px;width: 60%;height: 35px;}
-    #verification .codeSub {width: 88%;height: 35px;line-height: 20px;background:#D5ED23 !important;color:#000 !important;}
+    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 45px;}
+    #verification .codeSub {width: 60%;height: 40px;line-height: 20px;background:#D5ED23 !important;color:#000 !important;font-size: 16px;}
     #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
-    
+    #verification {width:100%;height:220px}
+    #verification .txtfldP {margin-top: 25px;text-align:center}
+    #verification .btnP {margin-top: 25px;text-align:center}
+    #verification .navbar {background-color:#002631 !important}
+    #verification .navbar span {color:#fff !important}
     
 }
 
@@ -508,6 +513,7 @@
     #signupView .wrapper .bottomTxtDv p {text-align:center}
     #signupView .wrapper .bottomTxtDv p span{font-size: 14px;font-weight: 500;color:#fff}
     #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold}
+    
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /*Forgot Password*/
@@ -880,7 +886,12 @@
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Verification Modalview*/
     #verification .myText {font-size:15px;}
-    #verification .verfTxtfld {  margin-left: 10px;width: 60%;height: 35px;}
-    #verification .codeSub {width: 88%;height: 35px;line-height: 20px;background:#D5ED23 !important;color:#000 !important;}
+    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 45px;}
+    #verification .codeSub {width: 85%;height: 40px;line-height: 25px;background:#D5ED23 !important;color:#000 !important;font-size:16px}
     #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
+    #verification {width:100%;height:200px}
+    #verification .txtfldP {margin-top: 20px;text-align:center}
+    #verification .btnP {margin-top: 25px;text-align:center}
+    #verification .navbar {background-color:#002631 !important}
+    #verification .navbar span {color:#fff !important}
  }
