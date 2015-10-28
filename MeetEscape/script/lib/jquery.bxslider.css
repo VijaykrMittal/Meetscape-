@@ -36,6 +36,9 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+    
+    /*EXTERNAL CSS*/
+    position: initial !important;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);

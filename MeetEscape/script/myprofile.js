@@ -61,7 +61,7 @@
         
         moveToContact:function()
         {
-            //app.apps.navigate('views/contact.html');
+            app.apps.navigate('views/contact.html');
         },
         
         moveToRatetheapp:function()
