@@ -1,4 +1,4 @@
-<div data-role="view" id="createProfileView" data-title="Create Profile" data-use-native-scrolling="true">
+<div data-role="view" id="createProfileView" data-title="Create Profile" data-use-native-scrolling="true" data-model="app.userService.viewModel" data-show="app.userService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
@@ -220,7 +220,7 @@
             </div>
             <div class="subfrmDv">
                 <p>
-                    <a data-role="button" class="subbtn">Submit</a>
+                    <a data-role="button" class="subbtn" data-bind="click:usersubmit">Submit</a>
                 </p>
             </div>
             

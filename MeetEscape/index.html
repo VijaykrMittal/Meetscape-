@@ -29,7 +29,7 @@
                     </p>
                 </div>
             </li>
-            <li>
+            <li data-bind="click:moveToInbox">
                 <div class="iconDv">
                     <p>
                         <img src="styles/images/msg.png"/>
@@ -135,7 +135,91 @@
                     
                 </div>
             </li>
-            <li data-bind="click:moveToSetting">
+            <li style="margin:0 0 0 -10px">
+                <div class="morehide" style="width:100%;">
+                    <ul data-role="listview">
+                        <li data-bind="click:moveToSetting" style="padding: 3px 0 13px 10px;">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/setting.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Setting</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                        <li data-bind="click:moveToContact">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/contact.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Contact Us</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                        <li data-bind="click:moveToRatetheapp">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/rate_app.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Rate the App</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                        <li data-bind="click:moveToPrivacypolicy">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/privacy.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Privacy Policy</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                        <li data-bind="click:moveToTermsCond">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/t&c.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Terms and Conditions</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                        <li data-bind="click:moveToSignout" style="padding: 10px 0 0px 10px;">
+                            <div class="iconDv">
+                                <p>
+                                    <img src="styles/images/logout.png"/>
+                                </p>
+                            </div>
+                            <div class="titleDv">
+                                <span>Sign Out</span>
+                            </div>
+                            <div class="badgeDv">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!--<li data-bind="click:moveToSetting">
                 <div class="iconDv">
                     <p>
                         <img src="styles/images/setting.png"/>
@@ -212,8 +296,78 @@
                 <div class="badgeDv">
                     
                 </div>
-            </li>
+            </li>-->
         </ul>
+    </div>
+    
+    <!--Verification Modal View-->
+    <div data-role="modalview" id="filterView" style="width:80%;" data-model="app.signupService.viewModel">
+        <div data-role="content">
+           <div class="mainContent">
+               <div class="sinfldDv">
+                    <label>Location</label>
+                    <p>
+                        <input type="text" name="city" id="city"/>
+                        <a data-role="button">edit</a>
+                    </p>
+                   <p>
+                       <input type="text" name="area" id="area"/>
+                       <a data-role="button">edit</a>
+                   </p>
+               </div>
+               <div class="sinfldDv">
+                    <label>Select Gender</label>
+                    <p>
+                        <label class="labeltxt">
+                            <input type="radio" name="male" id="male"/>
+                            Male
+                        </label>
+                        <label class="labeltxt">
+                            <input type="radio" name="male" id="male"/>
+                            Female
+                        </label>
+                        
+                    </p>
+               </div>
+               <div class="sinfldDv">
+                    <label>I'm Here to</label>
+                    <p>
+                        <select class="drpdwn">
+                            <option>Make Friends</option>
+                        </select>
+                    </p>
+               </div>
+               <div class="sinfldDv">
+                    <label>Age Range</label>
+                    <p>
+                        <select class="drpdwn">
+                            <option>18-90 Years</option>
+                        </select>
+                    </p>
+               </div>
+               <div class="sinfldDv">
+                    <label>Within Km</label>
+                    <p>
+                        <select class="drpdwn">
+                            <option>5-150 Km</option>
+                        </select>
+                    </p>
+               </div>
+               <div class="sinfldDv">
+                    <label>Last Online</label>
+                    <p>
+                        <select class="drpdwn">
+                            <option>Last 14 days</option>
+                        </select>
+                    </p>
+               </div>
+               <div class="subfrmDv">
+                    <p>
+                        <a data-role="button" class="subbtn km-widget km-button" data-bind="click:usersubmit"><span class="km-text">Submit</span></a>
+                    </p>
+               </div>
+           </div>
+        </div>
     </div>
     
     <!--external Script file place here-->
@@ -230,9 +384,12 @@
     <script src="script/search.js"></script>
     <script src="script/viewedme.js"></script>
     <script src="script/message.js"></script>
-    <script src="script/favourite.js"></script>
+    <!--<script src="script/favourite.js"></script>-->
     <script src="script/visitor.js"></script>
     <script src="script/login.js"></script>
     <script src="script/signup.js"></script>
+    <script src="script/favoriteView.js"></script>
+    <script src="script/create_profile.js"></script>
+    <script src="script/interest.js"></script>
 </body>
 </html>

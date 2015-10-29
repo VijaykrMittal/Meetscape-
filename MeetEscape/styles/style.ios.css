@@ -1,462 +1,7 @@
 @media (min-width:0px) and (max-width:640px) {
-    
-     /*Login View*/
-    #loginView .wrapper {width: 80%;margin: 0px auto;}
-    #loginView .logo{width: 100%;margin-top: 30%;margin-bottom: 10%;}
-    #loginView .logo p:nth-child(1) {text-align:center}
-    #loginView .logo p:nth-child(1) img {width:90px;height:90px}
-    #loginView .logo p:nth-child(2) {text-align:center;font-size: 22px;margin: -10px 0 0 0;font-family: -webkit-pictograph;color: #fff;}
-    #loginView .loginfld {width:100%;height:auto;}
-    #loginView .loginfld p:nth-child(1){padding: 0px 0 15px 0;}
-    /*#loginView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #loginView .txtfld{width: 100%;height: 45px;padding-left: 35px;background-color: #002631;color:#fff;border:1px solid #7E9198;}
-    #loginView .username {background:url(./images/user_icon.png) no-repeat;background-position: 7px 10px;}
-    #loginView .password {background:url(./images/lock.png) no-repeat;background-position: 7px 10px;}
-    #loginView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-	#loginView .inlineFld {display:inline-block;width:100%}
-    #loginView .inlineFld .inlineFldLeft {float:left;width:50%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 16px;display: inline-block;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:16px;font-weight:500;color: #fff;}
-    #loginView .inlineFld .inlineFldRight {float:right;width:50%;}
-    #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 16px;font-weight: 500;color:#D5DE23}
-    #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
-    #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
-    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 45px;line-height: 25px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 8px;}
-    #loginView .wrapper .btnGrp .signDv a span{margin-left: 10px;}
-    #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
-    #loginView .wrapper .btnGrp .signDv .login span{font-size: 18px;}
-    /*#loginView .wrapper .btnGrp .signDv .fblogin {border: none !important;background: url('./images/fb.png') no-repeat !important;background-size:100px 100px;font-weight: 600 !important;overflow:hidden}*/
-    #loginView .wrapper .signupTxt {margin-top:45px;}
-    #loginView .wrapper .signupTxt p {text-align:center}
-    #loginView .wrapper .signupTxt p span{font-size: 16px;font-weight: 500;color:#fff}
-    #loginView .wrapper .signupTxt p a {text-decoration:none;color:#D5DE23;font-weight:bold}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Signup View*/
-    #signupView .wrapper {width: 80%;margin: 0px auto;  margin-top: 15%;}
-    #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
-    #signupView .wrapper .picUploadDv P {text-align:center;  margin-top: -15px;font-size: 18px;}
-    #signupView .wrapper .picUploadDv P a{width: 40%;background:none !important;}
-    #signupView .wrapper .picUploadDv P a:active {background:none !important;}
-    #signupView .wrapper .picUploadDv P a img {width:100%}
-    #signupView .wrapper .signupFormFld{width: 100%;}
-    #signupView .wrapper .signupFormFld .fnametxtfld{height: 45px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #7E9198}
-    #signupView .wrapper .signupFormFld .lnametxtfld{height: 45px;padding-left: 7px;width:48%;margin-left:11px;background-color: #002631;color:#fff;border:1px solid #7E9198}
-   /* #signupView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #signupView .txtfld{width: 100%;height: 45px;padding-left: 7px;border: 1px solid #7E9198;;background-color: #002631;color:#fff}
-    #signupView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-    #signupView .signupFormFld p {padding: 0px 0 10px 0;}
-    #signupView .termsCondnDv {width:100%;display: inline-block;}
-    #signupView .termsCondnDv .inlineFldLeft {float:left;width:100%;margin-top: -16px;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 25px;display: inline-block;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(2){font-size:16px;font-weight:500;color:#fff}
-    .removebtn {border:none !important;background:none !important}
-    .removebtn span {font-size:15px;font-weight:500;color:#D5DE23 !important;}
-    .removebtn:active {border:none !important;background:none !important;color:#D5DE23 !important;}
-    #signupView .wrapper .buttonDv {width:95%;margin:0px auto;margin-top: 10px;}
-    #signupView .wrapper .buttonDv .signDv{width: 98%;margin-bottom: 10px;margin:0px auto}
-    #signupView .wrapper .buttonDv .signDv a {width: 100%;height: 45px;line-height: 25px;font-size: 18px;font-family: times;font-weight: 500;overflow: hidden;}
-    .signupBtn{border:none !important;background:#D5DE23 !important;color:#000 !important;font-weight:600 !important;}
-    .signupBtn.km-state-active{border:none !important;background:#D5DE23 !important;font-weight:600 !important;overflow:hidden !important}
-    
-    #signupView .wrapper .bottomTxtDv {margin-top: 25px;width: 100%;margin-bottom: 25px;}
-    #signupView .wrapper .bottomTxtDv p {text-align:center}
-    #signupView .wrapper .bottomTxtDv p span{font-size: 16px;font-weight: 500;color:#fff}
-    #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold;font-size:16px}
-    
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Forgot Password*/
-    #forgotPwdView .wrapper {width:80%;height:auto;margin:0px auto}
-    #forgotPwdView .logoTitle{width: 85%;margin: 0px auto;margin: 0% 20% 0 25%;display: inline-block;}
-    #forgotPwdView .logoTitle .logoTitleDv1 {width: 20%;float: left;}
-    #forgotPwdView .logoTitle .logoTitleDv1 img {width:75px}
-    #forgotPwdView .logoTitle .logoTitleDv2 {float: left;width: 80%;margin-top: 12px;}
-    #forgotPwdView .logoTitle .logoTitleDv2 .focus {color:#D5DE47}
-    #forgotPwdView .logoTitle .logoTitleDv2 span {color:#fff;font-size:35px}
-    #forgotPwdView .formFld label {color:#fff}
-    #forgotPwdView .formFld {width:100%;height:auto;margin-top: 10%;}
-    #forgotPwdView .formFld .txtfld{width: 100%;height: 45px;padding-left: 7px;border: 1px solid #7E9198;background-color: #002631;color: #fff;}
-    #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
-    #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
-    .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;  height: 45px;line-height: 28px;}
-    .requestBtnDv .forgotBtn span {font-size:18px;}
-    #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:20%}
-    #forgotPwdView .wrapper .bottomTextData p {text-align:center}
-    #forgotPwdView .wrapper .bottomTextData p span {font-size:18px;color:#fff}
-    #forgotPwdView .wrapper .bottomTextData p a {font-size:18px;color:#D5DE23;text-decoration:none}
-    #forgotPwdView .wrapper .fgcondv {width:100%;height:auto;margin-top:45%}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Dashboard*/
-    .nvbar {background-color:#002631 !important;color:#fff !important }
-    .nvbar .menu {background:url('./images/menu.png') no-repeat !important;padding-left: 40px;padding-bottom: 18px;border:none !important}
-    .nvbar span{font-size: 18px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Drawer*/
-    .drawerListView li:first-child {height: auto;}
-    .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
-    .drawerListView .firstchild .profilePic {width: 100%;margin: 0px auto;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 137px;right: 160px;overflow: auto;}
-    .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
-    .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:0px solid #fff}
-    .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
-    .drawerListView .iconDv {width:12%;float:left}
-    .iconDv p {text-align:center;margin:3px 0 0 0}
-    .iconDv p img {width:40px;height:40px;}
-    .drawerListView .titleDv {float:left; margin-top: 12px;width:68%}
-    .titleDv span {font-size: 18px;font-family: times;margin-left: 15px;}
-    .drawerListView .badgeDv {float:right;width:20%}
-    .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
-    .badgeDv .badgeTitle {margin: 10px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*My profile Dv*/
-    #myprofile .wrapper {width:100%;height:auto;}
-    #myprofile .wrapper .picDv {width:100%;height:auto;}
-    #myprofile .wrapper .picDv img {width:100%;height:auto}
-    #myprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
-    #myprofile .wrapper .titleEditDv .titlePart {width:75%;height:100%;float:left;}
-    #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
-    #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
-    #myprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 17px;}
-    #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
-    #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    
-    /*User profile Dv*/
-    #userprofile .wrapper {width:100%;height:auto;}
-    #userprofile .wrapper .picDv {width:100%;height:auto;}
-    #userprofile .wrapper .picDv img {width:100%;height: auto;}
-    #userprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
-    #userprofile .wrapper .titleEditDv .titlePart {width:60%;height:100%;float:left;}
-    #userprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
-    #userprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
-    #userprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 18px;}
-    #userprofile .wrapper .titleEditDv .editPart {width:40%;height:100%;float:left;}
-    #userprofile .wrapper .titleEditDv .editPart .like{background: url('./images/like.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
-    #userprofile .wrapper .titleEditDv .editPart .remove{background: url('./images/remove.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*nearby data*/
-    #nearbyView .wrapper {width:100%;height:auto;}
-    #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-    #nearbyView ul{margin-top: 20px;}
-    #nearbyView li {float:left;width:33%;margin-left: 1px;}
-    #nearbyView li .main {width: 100%;display: inline-block;}
-    #nearbyView li .main .imageDiv{float: left;}
-    #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
-    #nearbyView li .main .contentDv p:last-child label {color:#022829;}
-    #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
-    #nearbyView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*BX-SLIDER*/
-    .bx-controls {display:none !important}
-    .bx-viewport {margin-top:-15px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Request View*/
-    #requestView .wrapper {width:100%;height:auto;}
-    #requestView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #requestView .mainTabstrip {width: 100%;height: auto;display: inline-block;border-bottom: 1px solid #ccc;}
-  
-    #requestView .mainTabstrip .tabstripchild0 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn {width:100%;height:100%;color:#000;background:#fff;border:none}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn span{line-height: 28px;font-size: 13px;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
-    
-    #requestView .mainTabstrip .tabstripchild1 {width: 33%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 13px;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
-    
-    #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn {width:100%;height:100%;color:#000;background:#fff ;border:none}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn span{line-height: 28px;font-size: 13px;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: #fff;border: none;}
-    
-    /*#requestView #sentRequest {margin-top: 10px}*/
-    #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #sentRequest .main .imageDv {width: 16%;float: left;}
-    #requestView #sentRequest .main .imageDv img {width:100%}
-    #requestView #sentRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #requestView #sentRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(3) label{font-size: 16px;}
-    #requestView #sentRequest .main .time_iconDV{width:42%;float:left}
-    #requestView #sentRequest .main .time_iconDV p {margin: 30px 0 0 130px;}
-    #requestView #sentRequest .main .time_iconDV p img {width:50px;height:50px}
-    
-    /*#requestView #acceptRequest {margin-top: 10px}*/
-    #requestView #acceptRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #acceptRequest .main .imageDv {width: 16%;float: left;}
-    #requestView #acceptRequest .main .imageDv img {width:100%}
-    #requestView #acceptRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #requestView #acceptRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(3) label{font-size: 16px;}
-    #requestView #acceptRequest .main .time_iconDV{width:42%;float:left}
-    #requestView #acceptRequest .main .time_iconDV p {margin: 30px 0 0 130px;}
-    #requestView #acceptRequest .main .time_iconDV p img {width:50px;height:50px}
-    
-    /*#requestView #matchedData {margin-top: 10px}*/
-    #requestView #matchedData .main {width:100%;height:auto;display:inline-block}
-    #requestView #matchedData .main .imageDv {width: 16%;float: left;}
-    #requestView #matchedData .main .imageDv img {width:100%}
-    #requestView #matchedData .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(1) {margin: -10px 0 10px 15px;font-weight: bold;font-size:18px}
-    #requestView #matchedData .main .contentDv p:nth-child(2) {margin: 0px 0 10px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(2) label{font-size: 16px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #requestView #matchedData .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(3) label{font-size: 16px;}
-    #requestView #matchedData .main .time_iconDV{width:42%;float:left}
-    #requestView #matchedData .main .time_iconDV p {margin: 30px 0 0 130px;}
-    #requestView #matchedData .main .time_iconDV p img {width:50px;height:50px}
-    
-    /*20 - 10 - 2010*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Contact Us View*/
-    #contactView .wrapper {width:90%;height:auto;margin:0px auto;margin-top: 0%;}
-    #contactView .txtfld{width: 100%;height: 35px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
-    #contactView .txtfldarea{width: 100%;height: 100px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
-    #contactView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-    #contactView .wrapper .title {width:100%;}
-    #contactView .wrapper .title p{text-align: center;font-size: 30px;color: #fff;font-family: times;}
-    #contactView .wrapper .eventBtn {width:92%;margin:0px auto;margin-top:15%}
-    #contactView .wrapper .eventBtn .signDv{width: 100%;margin:0px auto;margin-bottom: 10px;}
-    #contactView .wrapper .eventBtn .signDv .login {width:100%;border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
-    #contactView .wrapper .eventBtn .signDv .login span{font-size: 18px;font-size: 18px;line-height: 27px;font-family: inherit;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Setting*/
-    #settingView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #setting_listview li{padding: 15px 15px 15px 15px;}
-    #setting_listview li a{font-size: 18px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Meet View*/
-    #meetView .wrapper {width:100%;height:auto;}
-    #meetView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;margin-left: 10px;}
-    #meetView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #meetView ul{margin-top: 0px;}
-    #meetView li {float:left;width:33%;margin-left: 1px;}
-    #meetView li .main {width: 100%;display: inline-block;}
-    #meetView li .main .imageDiv{float: left;}
-    #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
-    #meetView li .main .contentDv p:last-child label {color:#022829;}
-    #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
-    #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #meetView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Add Interest View*/
-    #interestView .wrapper {width:95%;height:auto;margin:0px auto}
-    #interestView .wrapper .mainDv {width:100%;height:auto;}
-    #interestView .wrapper .mainDv .textTitle {font-size:25px;}
-    #interestView .wrapper .mainDv .selectBox {width:100%;height:auto}
-    #interestView .wrapper .mainDv .intrstbtn {width: 100%;height: 40px;color: #000 !important;background: #D5DE23 !important;}
-    #interestView .wrapper .mainDv .intrstbtn span {font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    
-    /*23-10-2015*/
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Report User View*/
-    #reportuserView .wrapper {width:100%;height:auto;margin:0px auto}
-    #reportuserView .wrapper .formfld1 {width:100%;height:auto;}
-    #reportuserView .wrapper .formfld1 label{font-size:16px}
-    #reportuserView .wrapper .formfld2 {width:100%;height:auto;}
-    #reportuserView .wrapper .formfld2 .reasontxtFld{width:100%;height:100px;border: 1px solid #ccc;}
-    #reportuserView .wrapper .formSubmit {width:100%;height:auto;  margin-top: 30px;}
-    #reportuserView .wrapper .formSubmit a {border: none !important;background: #D5DE23 !important;color: #000 !important;overflow:hidden;height: 45px;width: 100%;line-height: 26px;font-size: 19px;font-family: sans-serif;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Notification View*/
-    #notificationView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #notificationView #notificationData li{margin-top: 0px}
-    #notificationView #notificationData .main {width:100%;height:auto;display:inline-block}
-    #notificationView #notificationData .main .imageDv {width: 25%;float: left;}
-    #notificationView #notificationData .main .imageDv img {width:100%}
-    #notificationView #notificationData .main .contentDv {width: 75%;float: left;}
-    #notificationView #notificationData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #notificationView #notificationData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #notificationView #notificationData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #notificationView #notificationData .main .time_iconDV p {font-size:13px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Search View*/
-    #searchView .wrapper {width:100%;height:auto;}
-    #searchView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-    #searchView .wrapper .searchFldDv {width:100%;height:auto;}
-    #searchView .wrapper .searchFldDv p{margin: 15px 9px 0px 9px;}
-    #searchView .wrapper .searchFldDv input {width:100%;height:35px;padding-left:7px;border:1px solid #ccc;background:url('./images/search_gray.png') no-repeat;background-size:25px 25px;background-position: 98% 3px;}
-    
-    #searchView ul{margin-top: 20px;}
-    #searchView li {float:left;width:33%;margin-left: 1px;}
-    #searchView li .main {width: 100%;display: inline-block;}
-    #searchView li .main .imageDiv{float: left;}
-    #searchView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #searchView li .main .contentDv{float:left;width:100%}
-    #searchView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #searchView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
-    #searchView li .main .contentDv p:last-child label {color:#022829;margin-top:-4px;margin-left:4px;float:left}
-    #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360}
-    #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #searchView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    #searchView li .main .imageDiv .certify{width: 20px;border: none;position: absolute;top: 10px;left: 4px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Viewed Me View*/
-    
-    #viewedmeView .wrapper {width:100%;height:auto;}
-    #viewedmeView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-   
-    #viewedmeView ul{margin-top: 0px;}
-    #viewedmeView li {float:left;width:33%;margin-left:1px}
-    #viewedmeView li .main {width: 100%;display: inline-block;}
-    #viewedmeView li .main .imageDiv{float: left;}
-    #viewedmeView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #viewedmeView li .main .contentDv{float:left;width:100%}
-    #viewedmeView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;margin: 10px 0 0 0;}
-    #viewedmeView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Message View*/
-    #messageView .wrapper {width:100%;height:auto;}
-    #messageView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #messageView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn {width:100%;height:100%;color:#000;background:none;border:none}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn span{line-height: 28px;font-size: 16px;}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn:active {background: none;border: none;}
-    #messageView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn {width:100%;height:100%;color:#000;background:none;border:none}
-    #messageView .mainTabstrip .tabstripchild2 span{line-height: 28px;font-size: 16px;}
-    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn:active {background: none;border: none;}
-    
-    #messageView #messageData {margin-top: 10px}
-    #messageView #messageData .main {width:100%;height:auto;display:inline-block}
-    #messageView #messageData .main .imageDv {width: 25%;float: left;}
-    #messageView #messageData .main .imageDv img {width:100%}
-    #messageView #messageData .main .contentDv {width: 75%;float: left;}
-    #messageView #messageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #messageView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #messageView #messageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #messageView #messageData .main .time_iconDV p {font-size:13px}
-    
-    #messageView #sendmessageData {margin-top: 10px}
-    #messageView #sendmessageData .main {width:100%;height:auto;display:inline-block}
-    #messageView #sendmessageData .main .imageDv {width: 25%;float: left;}
-    #messageView #sendmessageData .main .imageDv img {width:100%}
-    #messageView #sendmessageData .main .contentDv {width: 75%;float: left;}
-    #messageView #sendmessageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #messageView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #messageView #sendmessageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #messageView #sendmessageData .main .time_iconDV p {font-size:13px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Favourite View*/
-    #favoriteView .wrapper {width:100%;height:auto;}
-    #favoriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #favoriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite span{line-height: 28px;font-size: 16px;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite:active {background: none;border: none;}
-    #favoriteView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite span{line-height: 28px;font-size: 16px;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite:active {background: none;border: none;}
-    
-    #favoriteView #myfavoriteData {margin-top: 0px}
-    #favoriteView #myfavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #myfavoriteData .main .imageDv {width: 16%;float: left;}
-    #favoriteView #myfavoriteData .main .imageDv img {width:100%}
-    #favoriteView #myfavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(1) {margin: 15px 0 5px 15px;/*font-weight: bold;*/;font-size: 20px;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(2) {font-size: 16px;/*text-align: justify;*/margin: 12px 0 0 15px;}
-    #favoriteView #myfavoriteData .main .time_iconDV{position: absolute;top: 20px;right: 0;overflow:auto}
-    #favoriteView #myfavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
-    
-    #favoriteView #whoFavoriteData {margin-top: 0px}
-    #favoriteView #whoFavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #whoFavoriteData .main .imageDv {width: 16%;float: left;}
-    #favoriteView #whoFavoriteData .main .imageDv img {width:100%}
-    #favoriteView #whoFavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(1) {margin: 15px 0 5px 15px;/*font-weight: bold;*/font-size:20px}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(2) {font-size: 16px;/*text-align: justify*/;margin: 12px 0 0 15px;}
-    #favoriteView #whoFavoriteData .main .time_iconDV{position: absolute;top: 20px;right: 0;overflow:auto}
-    #favoriteView #whoFavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
-    
-    /*26-10-2015*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* visitor View*/
-    #visitorView .wrapper {width:100%;height:auto;}
-    #visitorView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    
-    #visitorView #visitorData {margin-top: 0px}
-    #visitorView #visitorData .main {width:100%;height:auto;display:inline-block}
-    #visitorView #visitorData .main .imageDv {width: 25%;float: left;}
-    #visitorView #visitorData .main .imageDv img {width:100%}
-    #visitorView #visitorData .main .contentDv {width: 75%;float: left;}
-    #visitorView #visitorData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
-    #visitorView #visitorData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #visitorView #visitorData .main .time_iconDV{position: absolute;top: 8px;right: 0;overflow:auto}
-    /*#visitorView #visitorData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* create Profile View*/
-    #createProfileView .wrapper {width:100%;height:auto;}
-    #createProfileView .wrapper .hdprofDv {width:100%;height:auto;}
-    #createProfileView .wrapper .hdprofDv .innerprofDv {width:100%;height:auto;margin-top:12%}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p {text-align:center}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(1) img {width:135px;height:135px;box-shadow: 0px 0px 20px 8px #ddd}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(2) {font-size:20px}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(3) {font-size: 18px;margin: -12px 0 0 0;}
-    #createProfileView .wrapper .frmfldDv {width:95%;height:auto;margin:0px auto;margin-top:10%}
-    #createProfileView .wrapper .frmfldDv .sinfldDv {width:100%;height:auto;  margin-top: 6%;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv label {font-size:18px;color:#000}
-    #createProfileView .wrapper .frmfldDv .sinfldDv p {padding:15px 5px 15px 5px;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .article {padding:0px 0px 0px 0px !important;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .drpdwn {width:100%;height:35px;border:none;background-color: #fff;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .txtara{width: 100%;height: 120px;border: 1px solid #ddd;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .txtint{width: 80%;height: 35px;border: none;padding-left:7px}
-    .ethnicity {float:right}
-    .labeltxt {font-size:16px !important;color:#4c5356 !important}
-    #createProfileView .wrapper .subfrmDv {width:100%;height:auto;margin: 50px 0 30px 0;}
-    #createProfileView .wrapper .subfrmDv .subbtn {width:100%;height:40px;color:#000 !important;background:#D5DE23 !important}
-    #createProfileView .wrapper .subfrmDv .subbtn span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    #createProfileView .wrapper .subfrmDv .subbtn:active {background:#D5DE23 !important;color:#000 !important;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Verification Modalview*/
-    #verification .myText {font-size:15px;}
-    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 45px;}
-    #verification .codeSub {width: 60%;height: 40px;line-height: 20px;background:#D5ED23 !important;color:#000 !important;font-size: 16px;}
-    #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
-    #verification {width:100%;height:220px}
-    #verification .txtfldP {margin-top: 25px;text-align:center}
-    #verification .btnP {margin-top: 25px;text-align:center}
-    #verification .navbar {background-color:#002631 !important}
-    #verification .navbar span {color:#fff !important}
-    
 }
 
-@media (min-width:0px) and (max-width:440px) {
+@media (min-width:0px) and (max-width:420px) {
     
     /*Login View*/
     #loginView .wrapper {width: 90%;margin: 0px auto;}
@@ -556,15 +101,15 @@
     .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
     .drawerListView .firstchild .profilePic {width: 100%;margin: 0px auto;}
     .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 67px;overflow: auto;}
+    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 85px;overflow: auto;}
     .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
     .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:0px solid #fff}
     .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
     .drawerListView .iconDv {width:12%;float:left}
     .iconDv p {text-align:center;margin:0 0 0 0}
-    .iconDv p img {width:30px;height:30px;}
+    .iconDv p img {width:35px;height:35px;}
     .drawerListView .titleDv {float:left; margin-top: 7px;width:68%}
-    .titleDv span {font-size: 15px;font-family: times;margin-left: 15px;}
+    .titleDv span {font-size: 18px;font-family: times;margin-left: 15px;}
     .drawerListView .badgeDv {float:right;width:20%}
     .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
     .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
@@ -600,12 +145,12 @@
     #nearbyView .wrapper {width:100%;height:auto;}
     #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
     #nearbyView ul{margin-top: 0px;}
-    #nearbyView li {float:left;width:33%;margin-left: 0px;}
+    #nearbyView li {float:left;width:50%;margin-left: 0px;}
     #nearbyView li .main {width: 100%;display: inline-block;}
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
     #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -706,12 +251,12 @@
     #meetView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;margin-left: 10px;}
     #meetView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
     #meetView ul{margin-top: 0px;}
-    #meetView li {float:left;width:33%;margin-left: 0px;}
+    #meetView li {float:left;width:50%;margin-left: 0px;}
     #meetView li .main {width: 100%;display: inline-block;}
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
     #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -760,18 +305,16 @@
     #searchView .wrapper .searchFldDv input {width:100%;height:35px;padding-left:7px;border:1px solid #ccc;background:url('./images/search_gray.png') no-repeat;background-size:25px 25px;background-position: 98% 3px;}
     
     #searchView ul{margin-top: 10px;}
-    #searchView li {float:left;width:33%;margin-left: 0px;}
+    #searchView li {float:left;width:50%;margin-left: 0px;}
     #searchView li .main {width: 100%;display: inline-block;}
     #searchView li .main .imageDiv{float: left;}
     #searchView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #searchView li .main .contentDv{float:left;width:100%}
-    #searchView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+    #searchView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
     #searchView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #searchView li .main .contentDv p:last-child label {color:#022829;margin-top:-4px;margin-left:4px;float:left}
     #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360}
     #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #searchView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    #searchView li .main .imageDiv .certify{width: 20px;border: none;position: absolute;top: 10px;left: 4px;}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Viewed Me View*/
@@ -909,18 +452,6 @@
     #verification .navbar {background-color:#002631 !important}
     #verification .navbar span {color:#fff !important}
     
-    /*Filter View*/
-    #filterView .nvbar .save {background:none !important;}
-    #filterView .nvbar .save:active {background:#002631 !important;}
-    #filterView .mainContent {width:95%;height:auto;margin:0px auto}
-    #filterView .mainContent .sinfldDv {  width: 100%;height: auto;margin-top: 6%;}
-    #filterView .mainContent .sinfldDv label {font-size: 18px;color: #000;}
-    #filterView .mainContent .sinfldDv .drpdwn{width: 100%;height: 35px;border: 1px solid #ccc;background-color: #fff;}
-    #filterView .mainContent .subfrmDv {width: 100%;height: auto;margin: 50px 0 30px 0;}
-    #filterView .mainContent .subfrmDv a{width: 100%;height: 40px;color: #000 !important;background: #D5DE23 !important;}
-    #filterView .mainContent .subfrmDv a span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    .editFld {background:url('./images/edit.png') no-repeat !important;background-size: 100% 100% !important;width: 25px;height: 25px;float: right;border: none !important;}
-    .editTxtFld {width: 90%;height: 34px;border: 0px solid #ccc !important;font-size: 15px;padding-left: 7px;}
     
 }
 
@@ -943,12 +474,12 @@
     #loginView .inlineFld .inlineFldLeft {float:left;width:50%;}
     #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 14px;display: inline-block;}
     #loginView .inlineFld .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:15px;font-weight:500;color: #fff;}
+    #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:17px;font-weight:500;color: #fff;}
     #loginView .inlineFld .inlineFldRight {float:right;width:50%;}
-    #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 15px;font-weight: 500;color:#D5DE23}
+    #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 17px;font-weight: 500;color:#D5DE23}
     #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
     #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
-    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 6px;}
+    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;  background-position: 45px 6px;background-size: 25px 25px;}
     #loginView .wrapper .btnGrp .signDv a span{margin-left: 10px;}
     #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
     #loginView .wrapper .btnGrp .signDv .login span{font-size: 18px;}
@@ -974,7 +505,7 @@
     #signupView .termsCondnDv .inlineFldLeft {float:left;width:100%;}
     #signupView .termsCondnDv .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 16px;display: inline-block;}
     #signupView .termsCondnDv .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(2){font-size:11px;font-weight:500;color:#fff}
+    #signupView .termsCondnDv .inlineFldLeft p:nth-child(2){font-size:12px;font-weight:500;color:#fff}
     .removebtn {border:none !important;background:none !important}
     .removebtn span {font-size:12px;font-weight:500;color:#D5DE23 !important;}
     .removebtn:active {border:none !important;background:none !important;color:#D5DE23 !important;}
@@ -1005,7 +536,7 @@
     #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
     #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
     .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;height: 40px}
-    .requestBtnDv .forgotBtn span {font-size:16px;}
+    .requestBtnDv .forgotBtn span {font-size:16px;line-height: 25px;}
     #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:30%}
     #forgotPwdView .wrapper .bottomTextData p {text-align:center}
     #forgotPwdView .wrapper .bottomTextData p span {font-size:16px;color:#fff}
@@ -1030,9 +561,9 @@
     .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
     .drawerListView .iconDv {width:12%;float:left}
     .iconDv p {text-align:center;margin:0 0 0 0}
-    .iconDv p img {width:30px;height:30px;}
+    .iconDv p img {width:35px;height:35px;}
     .drawerListView .titleDv {float:left; margin-top: 7px;width:68%}
-    .titleDv span {font-size: 15px;font-family: times;margin-left: 15px;}
+    .titleDv span {font-size: 18px;font-family: times;margin-left: 15px;}
     .drawerListView .badgeDv {float:right;width:20%}
     .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
     .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
@@ -1045,7 +576,7 @@
     #myprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
     #myprofile .wrapper .titleEditDv .titlePart {width:75%;height:100%;float:left;}
     #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
-    #myprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 17px;}
+    #myprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 18px;}
     #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
     #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
     #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
@@ -1186,7 +717,6 @@
     #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     #meetView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
     
-    
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Add Interest View*/
     #interestView .wrapper {width:95%;height:auto;margin:0px auto}
@@ -1239,8 +769,6 @@
     #searchView li .main .contentDv p:last-child label {color:#022829;margin-top:-4px;margin-left:4px;float:left}
     #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360}
     #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #searchView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    #searchView li .main .imageDiv .certify{width: 20px;border: none;position: absolute;top: 10px;left: 4px;}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Viewed Me View*/
@@ -1292,7 +820,10 @@
     #messageView #sendmessageData .main .time_iconDV p {font-size:13px}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Favourite View*/
+    
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /* Favourite View 2*/
+    
     #favoriteView .wrapper {width:100%;height:auto;}
     #favoriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
     #favoriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
@@ -1378,485 +909,6 @@
     #verification .navbar {background-color:#002631 !important}
     #verification .navbar span {color:#fff !important}
     
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Filter View*/
-    #filterView .nvbar .save {background:none !important;}
-    #filterView .nvbar .save:active {background:#002631 !important;}
-    #filterView .mainContent {width:95%;height:auto;margin:0px auto}
-    #filterView .mainContent .sinfldDv {  width: 100%;height: auto;margin-top: 6%;}
-    #filterView .mainContent .sinfldDv label {font-size: 18px;color: #000;}
-    #filterView .mainContent .sinfldDv .drpdwn{width: 100%;height: 35px;border: 1px solid #ccc;background-color: #fff;}
-    #filterView .mainContent .subfrmDv {width: 100%;height: auto;margin: 50px 0 30px 0;}
-    #filterView .mainContent .subfrmDv a{width: 100%;height: 40px;color: #000 !important;background: #D5DE23 !important;}
-    #filterView .mainContent .subfrmDv a span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    .editFld {background:url('./images/edit.png') no-repeat !important;background-size: 100% 100% !important;width: 25px;height: 25px;float: right;border: none !important;}
-    .editTxtFld {width: 90%;height: 34px;border: 0px solid #ccc !important;font-size: 15px;padding-left: 7px;}
- }
-
-@media (min-width:0px) and (max-width:360px) {
-    
-    /*Login View*/
-    #loginView .wrapper {width: 90%;margin: 0px auto;}
-    #loginView .logo{width: 100%;margin-top: 15%;margin-bottom: 10%;}
-    #loginView .logo p:nth-child(1) {text-align:center}
-    #loginView .logo p:nth-child(1) img {width:70px;height:70px}
-    #loginView .logo p:nth-child(2) {text-align:center;font-size: 22px;margin: -10px 0 0 0;font-family: -webkit-pictograph;color: #fff;}
-    #loginView .loginfld {width:100%;height:auto;}
-    #loginView .loginfld p:nth-child(1){padding: 0px 0 15px 0;}
-    /*#loginView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #loginView .txtfld{width: 100%;height: 35px;padding-left: 35px;background-color: #002631;color:#fff;border:1px solid #7E9198;}
-    #loginView .username {background:url(./images/user_icon.png) no-repeat;background-position: 5px 5px;}
-    #loginView .password {background:url(./images/lock.png) no-repeat;background-position: 5px 5px;}
-    #loginView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-	#loginView .inlineFld {display:inline-block;width:100%}
-    #loginView .inlineFld .inlineFldLeft {float:left;width:50%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 14px;display: inline-block;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:15px;font-weight:500;color: #fff;}
-    #loginView .inlineFld .inlineFldRight {float:right;width:50%;}
-    #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 15px;font-weight: 500;color:#D5DE23}
-    #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
-    #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
-    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 6px;}
-    #loginView .wrapper .btnGrp .signDv a span{margin-left: 10px;}
-    #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
-    #loginView .wrapper .btnGrp .signDv .login span{font-size: 18px;}
-    /*#loginView .wrapper .btnGrp .signDv .fblogin {border: none !important;background: url('./images/fb.png') no-repeat !important;background-size:100px 100px;font-weight: 600 !important;overflow:hidden}*/
-    #loginView .wrapper .signupTxt {margin-top:25px;}
-    #loginView .wrapper .signupTxt p {text-align:center}
-    #loginView .wrapper .signupTxt p span{font-size: 14px;font-weight: 500;color:#fff}
-    #loginView .wrapper .signupTxt p a {text-decoration:none;color:#D5DE23;font-weight:bold}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Signup View*/
-    #signupView .wrapper {width: 90%;margin: 0px auto;  margin-top: 15%;}
-    #signupView .wrapper .picUploadDv {width:100%;margin-bottom: 12%;}
-    #signupView .wrapper .picUploadDv P {text-align:center;  margin-top: -15px;}
-    #signupView .wrapper .signupFormFld{width: 100%;}
-    #signupView .wrapper .signupFormFld .fnametxtfld{height: 35px;padding-left: 7px;width:48%;background-color: #002631;color:#fff;border:1px solid #7E9198}
-    #signupView .wrapper .signupFormFld .lnametxtfld{height: 35px;padding-left: 7px;width:48%;margin-left:7px;background-color: #002631;color:#fff;border:1px solid #7E9198}
-   /* #signupView .txtfld{background: #002631;outline-color: #002631;width:100%}*/
-    #signupView .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;;background-color: #002631;color:#fff}
-    #signupView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-    #signupView .signupFormFld p {padding: 0px 0 10px 0;}
-    #signupView .termsCondnDv {width:100%;display: inline-block;}
-    #signupView .termsCondnDv .inlineFldLeft {float:left;width:100%;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 16px;display: inline-block;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
-    #signupView .termsCondnDv .inlineFldLeft p:nth-child(2){font-size:11px;font-weight:500;color:#fff}
-    .removebtn {border:none !important;background:none !important}
-    .removebtn span {font-size:12px;font-weight:500;color:#D5DE23 !important;}
-    .removebtn:active {border:none !important;background:none !important;color:#D5DE23 !important;}
-    #signupView .wrapper .buttonDv {width:95%;margin:0px auto;margin-top: 10px;}
-    #signupView .wrapper .buttonDv .signDv{width: 98%;margin-bottom: 10px;margin:0px auto}
-    #signupView .wrapper .buttonDv .signDv a {width: 100%;height: 40px;line-height: 20px;font-size: 16px;font-family: times;font-weight: 500;overflow: hidden;}
-    .signupBtn{border:none !important;background:#D5DE23 !important;color:#000 !important;font-weight:600 !important;}
-    .signupBtn.km-state-active{border:none !important;background:#D5DE23 !important;font-weight:600 !important;overflow:hidden !important}
-    
-    #signupView .wrapper .bottomTxtDv {margin-top: 25px;width: 100%;margin-bottom: 25px;}
-    #signupView .wrapper .bottomTxtDv p {text-align:center}
-    #signupView .wrapper .bottomTxtDv p span{font-size: 14px;font-weight: 500;color:#fff}
-    #signupView .wrapper .bottomTxtDv p a {text-decoration:none;color:#D5DE23;font-weight:bold}
-    
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Forgot Password*/
-    #forgotPwdView .wrapper {width:90%;height:auto;margin:0px auto}
-    #forgotPwdView .logoTitle{width: 80%;margin: 0px auto;margin: 0% 20% 0 20%;display: inline-block;}
-    #forgotPwdView .logoTitle .logoTitleDv1 {width: 20%;float: left;}
-    #forgotPwdView .logoTitle .logoTitleDv1 img {width:45px}
-    #forgotPwdView .logoTitle .logoTitleDv2 {float: left;width: 80%;margin-top: 5px;}
-    #forgotPwdView .logoTitle .logoTitleDv2 .focus {color:#D5DE47}
-    #forgotPwdView .logoTitle .logoTitleDv2 span {color:#fff;font-size:25px}
-    #forgotPwdView .formFld label {color:#fff}
-    #forgotPwdView .formFld {width:100%;height:auto;margin-top: 20%;}
-    #forgotPwdView .formFld .txtfld{width: 100%;height: 35px;padding-left: 7px;border: 1px solid #7E9198;background-color: #002631;color: #fff;}
-    #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
-    #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
-    .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;height: 40px}
-    .requestBtnDv .forgotBtn span {font-size:16px;}
-    #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:30%}
-    #forgotPwdView .wrapper .bottomTextData p {text-align:center}
-    #forgotPwdView .wrapper .bottomTextData p span {font-size:16px;color:#fff}
-    #forgotPwdView .wrapper .bottomTextData p a {font-size:16px;color:#D5DE23;text-decoration:none}
-    #forgotPwdView .wrapper .fgcondv {width:100%;height:auto;margin-top:25%}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Dashboard*/
-    .nvbar {background-color:#002631 !important;color:#fff !important }
-    .nvbar .menu {background:url('./images/menu.png') no-repeat !important;padding-left: 40px;padding-bottom: 18px;border:none !important}
-    .nvbar span{font-size: 18px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Drawer*/
-    .drawerListView li:first-child {height: auto;}
-    .drawerListView li:not(.firstchild) {padding:15px 0px 15px 10px}
-    .drawerListView .firstchild .profilePic {width: 100%;margin: 0px auto;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn {background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    .drawerListView .firstchild .profilePic .drawerEditBtn.fixpos{background-color: #fff;border-radius: 50%;position: absolute;width: 40px;height: 40px;top: 134px;right: 67px;overflow: auto;}
-    .drawerListView .firstchild .profilePic p:nth-child(1){text-align:center;padding: 25px 0 0 0;display: block;}
-    .drawerListView .firstchild .profilePic p:nth-child(1) img {width:130px;border:0px solid #fff}
-    .drawerListView .firstchild .profilePic p:nth-child(2) {text-align:center;padding: 10px 0 15px 0;font-size: 17px;}
-    .drawerListView .iconDv {width:12%;float:left}
-    .iconDv p {text-align:center;margin:0 0 0 0}
-    .iconDv p img {width:30px;height:30px;}
-    .drawerListView .titleDv {float:left; margin-top: 7px;width:68%}
-    .titleDv span {font-size: 15px;font-family: times;margin-left: 15px;}
-    .drawerListView .badgeDv {float:right;width:20%}
-    .badgeDv img {width:30px;height:30px;float: right;margin-right: 20px;}
-    .badgeDv .badgeTitle {margin: 3px 0 0 7px;background: #FE3032;padding: 7px 0px 0px 5px;width: 30px;height: 30px;border-radius: 50%;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*My profile Dv*/
-    #myprofile .wrapper {width:100%;height:auto;}
-    #myprofile .wrapper .picDv {width:100%;height:auto;}
-    #myprofile .wrapper .picDv img {width:100%;height:auto}
-    #myprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
-    #myprofile .wrapper .titleEditDv .titlePart {width:75%;height:100%;float:left;}
-    #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
-    #myprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 17px;}
-    #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
-    #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
-    #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
-    
-    /*User profile Dv*/
-    #userprofile .wrapper {width:100%;height:auto;}
-    #userprofile .wrapper .picDv {width:100%;height:auto;}
-    #userprofile .wrapper .picDv img {width:100%;height: auto;}
-    #userprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
-    #userprofile .wrapper .titleEditDv .titlePart {width:60%;height:100%;float:left;}
-    #userprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
-    #userprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
-    #userprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 18px;}
-    #userprofile .wrapper .titleEditDv .editPart {width:40%;height:100%;float:left;}
-    #userprofile .wrapper .titleEditDv .editPart .like{background: url('./images/like.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
-    #userprofile .wrapper .titleEditDv .editPart .remove{background: url('./images/remove.png') no-repeat;width: 60px;height: 60px;background-position: center center;float: right;background-size: 70%;border: none;margin-top: 10px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*nearby data*/
-    #nearbyView .wrapper {width:100%;height:auto;}
-    #nearbyView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-    #nearbyView ul{margin-top: 0px;}
-    #nearbyView li {float:left;width:50%;margin-left: 0px;}
-    #nearbyView li .main {width: 100%;display: inline-block;}
-    #nearbyView li .main .imageDiv{float: left;}
-    #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 13px;margin-top: -10px;}
-    #nearbyView li .main .contentDv p:last-child label {color:#022829;}
-    #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
-    #nearbyView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*BX-SLIDER*/
-    .bx-controls {display:block !important}
-    .bx-viewport {margin-top:-15px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Request View*/
-    #requestView .wrapper {width:100%;height:auto;}
-    #requestView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #requestView .mainTabstrip {width: 100%;height: auto;display: inline-block;border-bottom: 1px solid #ccc;}
-  
-    #requestView .mainTabstrip .tabstripchild0 {width: 31%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn {width:100%;height:100%;color:#000;background:#fff;border:none}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn span{line-height: 28px;font-size: 12px;}
-    #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
-    
-    #requestView .mainTabstrip .tabstripchild1 {width: 35%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;/*font-size:13px;*/}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 12px;}
-    #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
-    
-    #requestView .mainTabstrip .tabstripchild2 {width: 34%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn {width:100%;height:100%;color:#000;background:#fff ;border:none}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn span{line-height: 28px;font-size: 12px;}
-    #requestView .mainTabstrip .tabstripchild2 .matchedBtn:active {background: #fff;border: none;}
-    
-    /*#requestView #sentRequest {margin-top: 10px}*/
-    #requestView #sentRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #sentRequest .main .imageDv {width: 25%;float: left;}
-    #requestView #sentRequest .main .imageDv img {width:100%}
-    #requestView #sentRequest .main .contentDv {width: 42%;float: left;margin-top:15px}
-    #requestView #sentRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #requestView #sentRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #sentRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
-    #requestView #sentRequest .main .time_iconDV{width: 33%;float:left}
-    #requestView #sentRequest .main .time_iconDV p {margin: 25px 0 0 30px;}
-    #requestView #sentRequest .main .time_iconDV p img {width:35px;height:35px}
-    
-    /*#requestView #acceptRequest {margin-top: 10px}*/
-    #requestView #acceptRequest .main {width:100%;height:auto;display:inline-block}
-    #requestView #acceptRequest .main .imageDv {width: 25%;float: left;}
-    #requestView #acceptRequest .main .imageDv img {width:100%}
-    #requestView #acceptRequest .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(2) label{font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #requestView #acceptRequest .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #acceptRequest .main .contentDv p:nth-child(3) label{font-size: 13px;}
-    #requestView #acceptRequest .main .time_iconDV{width:33%;float:left}
-    #requestView #acceptRequest .main .time_iconDV p {margin: 25px 0 0 30px;width: 80px}
-    #requestView #acceptRequest .main .time_iconDV p img {width:35px;height:35px}
-    
-    /*#requestView #matchedData {margin-top: 10px}*/
-    #requestView #matchedData .main {width:100%;height:auto;display:inline-block}
-    #requestView #matchedData .main .imageDv {width: 25%;float: left;}
-    #requestView #matchedData .main .imageDv img {width:100%}
-    #requestView #matchedData .main .contentDv {width: 42%;float: left;margin-top: 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #requestView #matchedData .main .contentDv p:nth-child(2) {margin: 0px 0 5px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(2) label{font-size: 13px;}
-    #requestView #matchedData .main .contentDv p:nth-child(3) {margin: 0px 0 5px 15px;}
-    #requestView #matchedData .main .contentDv p:nth-child(3) label {font-size: 13px;}
-    #requestView #matchedData .main .time_iconDV{width:33%;float:left;}
-    #requestView #matchedData .main .time_iconDV p {margin: 25px 0 0 30px;}
-    #requestView #matchedData .main .time_iconDV p img {width:35px;height:35px}
-    
-    /*20 - 10 - 2010*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Contact Us View*/
-    #contactView .wrapper {width:90%;height:auto;margin:0px auto;margin-top: 0%;}
-    #contactView .txtfld{width: 100%;height: 35px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
-    #contactView .txtfldarea{width: 100%;height: 100px;padding-left: 7px;background-color: #002631;color:#fff;border: 1px solid #7E9198;}
-    #contactView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
-    #contactView .wrapper .title {width:100%;}
-    #contactView .wrapper .title p{text-align: center;font-size: 30px;color: #fff;font-family: times;}
-    #contactView .wrapper .eventBtn {width:92%;margin:0px auto;margin-top:15%}
-    #contactView .wrapper .eventBtn .signDv{width: 100%;margin:0px auto;margin-bottom: 10px;}
-    #contactView .wrapper .eventBtn .signDv .login {width:100%;border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
-    #contactView .wrapper .eventBtn .signDv .login span{font-size: 18px;font-size: 18px;line-height: 27px;font-family: inherit;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Setting*/
-    #settingView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #setting_listview li{padding: 15px 15px 15px 15px;}
-    #setting_listview li a{font-size: 18px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Meet View*/
-    #meetView .wrapper {width:100%;height:auto;}
-    #meetView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;margin-left: 10px;}
-    #meetView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #meetView ul{margin-top: 0px;}
-    #meetView li {float:left;width:50%;margin-left: 0px;}
-    #meetView li .main {width: 100%;display: inline-block;}
-    #meetView li .main .imageDiv{float: left;}
-    #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #meetView li .main .contentDv p:last-child{text-align:center;font-size: 13px;margin-top: -10px;}
-    #meetView li .main .contentDv p:last-child label {color:#022829;}
-    #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
-    #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #meetView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Add Interest View*/
-    #interestView .wrapper {width:95%;height:auto;margin:0px auto}
-    #interestView .wrapper .mainDv {width:100%;height:auto;}
-    #interestView .wrapper .mainDv .textTitle {font-size:25px;}
-    #interestView .wrapper .mainDv .selectBox {width:100%;height:46px}
-    #interestView .wrapper .mainDv .intrstbtn {width: 100%;height: 40px;color: #000 !important;background: #D5DE23 !important;}
-    #interestView .wrapper .mainDv .intrstbtn span {font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    
-    /*23-10-2015*/
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Report User View*/
-    #reportuserView .wrapper {width:100%;height:auto;margin:0px auto}
-    #reportuserView .wrapper .formfld1 {width:100%;height:auto;}
-    #reportuserView .wrapper .formfld1 label{font-size:16px}
-    #reportuserView .wrapper .formfld2 {width:100%;height:auto;}
-    #reportuserView .wrapper .formfld2 .reasontxtFld{width:100%;height:100px;border: 1px solid #ccc;}
-    #reportuserView .wrapper .formSubmit {width:100%;height:auto;  margin-top: 30px;}
-    #reportuserView .wrapper .formSubmit a {border: none !important;background: #D5DE23 !important;color: #000 !important;overflow:hidden;height: 45px;width: 100%;line-height: 26px;font-size: 19px;font-family: sans-serif;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Notification View*/
-    #notificationView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #notificationView #notificationData li{margin-top: 0px}
-    #notificationView #notificationData .main {width:100%;height:auto;display:inline-block}
-    #notificationView #notificationData .main .imageDv {width: 25%;float: left;}
-    #notificationView #notificationData .main .imageDv img {width:100%}
-    #notificationView #notificationData .main .contentDv {width: 75%;float: left;}
-    #notificationView #notificationData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #notificationView #notificationData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #notificationView #notificationData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #notificationView #notificationData .main .time_iconDV p {font-size:13px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Search View*/
-    #searchView .wrapper {width:100%;height:auto;}
-    #searchView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-    #searchView .wrapper .searchFldDv {width:100%;height:auto;}
-    #searchView .wrapper .searchFldDv p{margin: 15px 9px 0px 9px;}
-    #searchView .wrapper .searchFldDv input {width:100%;height:35px;padding-left:7px;border:1px solid #ccc;background:url('./images/search_gray.png') no-repeat;background-size:25px 25px;background-position: 98% 3px;}
-    
-    #searchView ul{margin-top: 10px;}
-    #searchView li {float:left;width:50%;margin-left: 0px;}
-    #searchView li .main {width: 100%;display: inline-block;}
-    #searchView li .main .imageDiv{float: left;}
-    #searchView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #searchView li .main .contentDv{float:left;width:100%}
-    #searchView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #searchView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
-    #searchView li .main .contentDv p:last-child label {color:#022829;margin-top:-4px;margin-left:4px;float:left}
-    #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360}
-    #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #searchView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    #searchView li .main .imageDiv .certify{width: 20px;border: none;position: absolute;top: 10px;left: 4px;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Viewed Me View*/
-    
-    #viewedmeView .wrapper {width:100%;height:auto;}
-    #viewedmeView .nvbar .filter {background:url('./images/filter.png') no-repeat !important;padding:20px 0 0 30px}
-   
-    #viewedmeView ul{margin-top: 0px;}
-    #viewedmeView li {float:left;width:50%;margin-left: 0px;}
-    #viewedmeView li .main {width: 100%;display: inline-block;}
-    #viewedmeView li .main .imageDiv{float: left;}
-    #viewedmeView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
-    #viewedmeView li .main .contentDv{float:left;width:100%}
-    #viewedmeView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 16px;font-weight: 500;margin: 10px 0 0 0;}
-    #viewedmeView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Message View*/
-    #messageView .wrapper {width:100%;height:auto;}
-    #messageView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #messageView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn {width:100%;height:100%;color:#000;background:none;border:none}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn span{line-height: 28px;font-size: 12px;}
-    #messageView .mainTabstrip .tabstripchild1 .messageBtn:active {background: none;border: none;}
-    #messageView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn {width:100%;height:100%;color:#000;background:none;border:none}
-    #messageView .mainTabstrip .tabstripchild2 span{line-height: 28px;font-size: 12px;}
-    #messageView .mainTabstrip .tabstripchild2 .sendmessageBtn:active {background: none;border: none;}
-    
-    #messageView #messageData {margin-top: 10px}
-    #messageView #messageData .main {width:100%;height:auto;display:inline-block}
-    #messageView #messageData .main .imageDv {width: 25%;float: left;}
-    #messageView #messageData .main .imageDv img {width:100%}
-    #messageView #messageData .main .contentDv {width: 75%;float: left;}
-    #messageView #messageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #messageView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #messageView #messageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #messageView #messageData .main .time_iconDV p {font-size:13px}
-    
-    #messageView #sendmessageData {margin-top: 10px}
-    #messageView #sendmessageData .main {width:100%;height:auto;display:inline-block}
-    #messageView #sendmessageData .main .imageDv {width: 25%;float: left;}
-    #messageView #sendmessageData .main .imageDv img {width:100%}
-    #messageView #sendmessageData .main .contentDv {width: 75%;float: left;}
-    #messageView #sendmessageData .main .contentDv p:nth-child(1) {margin: 0px 0 5px 15px;font-weight: bold;}
-    #messageView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #messageView #sendmessageData .main .time_iconDV{position: absolute;top: -6px;right: 0;overflow:auto}
-    #messageView #sendmessageData .main .time_iconDV p {font-size:13px}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Favourite View*/
-    #favoriteView .wrapper {width:100%;height:auto;}
-    #favoriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #favoriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite span{line-height: 28px;font-size: 12px;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite:active {background: none;border: none;}
-    #favoriteView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite span{line-height: 28px;font-size: 12px;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite:active {background: none;border: none;}
-    
-    #favoriteView #myfavoriteData {margin-top: 0px}
-    #favoriteView #myfavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #myfavoriteData .main .imageDv {width: 25%;float: left;}
-    #favoriteView #myfavoriteData .main .imageDv img {width:100%}
-    #favoriteView #myfavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #favoriteView #myfavoriteData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
-    #favoriteView #myfavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
-    
-    #favoriteView #whoFavoriteData {margin-top: 0px}
-    #favoriteView #whoFavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #whoFavoriteData .main .imageDv {width: 25%;float: left;}
-    #favoriteView #whoFavoriteData .main .imageDv img {width:100%}
-    #favoriteView #whoFavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #favoriteView #whoFavoriteData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
-    #favoriteView #whoFavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
-    
-    /*26-10-2015*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* visitor View*/
-    #visitorView .wrapper {width:100%;height:auto;}
-    #visitorView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    
-    #visitorView #visitorData {margin-top: 0px}
-    #visitorView #visitorData .main {width:100%;height:auto;display:inline-block}
-    #visitorView #visitorData .main .imageDv {width: 25%;float: left;}
-    #visitorView #visitorData .main .imageDv img {width:100%}
-    #visitorView #visitorData .main .contentDv {width: 75%;float: left;}
-    #visitorView #visitorData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;}
-    #visitorView #visitorData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;/*margin: 10px 0 0 15px;*/}
-    #visitorView #visitorData .main .time_iconDV{position: absolute;top: 8px;right: 0;overflow:auto}
-    /*#visitorView #visitorData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}*/
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* create Profile View*/
-    #createProfileView .wrapper {width:100%;height:auto;}
-    #createProfileView .wrapper .hdprofDv {width:100%;height:auto;}
-    #createProfileView .wrapper .hdprofDv .innerprofDv {width:100%;height:auto;margin-top:12%}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p {text-align:center}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(1) img {width:135px;height:135px;box-shadow: 0px 0px 20px 8px #ddd}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(2) {font-size:20px}
-    #createProfileView .wrapper .hdprofDv .innerprofDv p:nth-child(3) {font-size: 18px;margin: -12px 0 0 0;}
-    #createProfileView .wrapper .frmfldDv {width:95%;height:auto;margin:0px auto;margin-top:10%}
-    #createProfileView .wrapper .frmfldDv .sinfldDv {width:100%;height:auto;  margin-top: 6%;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv label {font-size:18px;color:#000}
-    #createProfileView .wrapper .frmfldDv .sinfldDv p {padding:15px 5px 15px 5px;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .article {padding:0px 0px 0px 0px !important;border-bottom: 1px solid #ccc;  margin: 10px 0 5px 0;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .drpdwn {width:100%;height:35px;border:none;background-color: #fff;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .txtara{width: 100%;height: 120px;border: 1px solid #ddd;}
-    #createProfileView .wrapper .frmfldDv .sinfldDv .txtint{width: 80%;height: 35px;border: none;padding-left:7px}
-    .ethnicity {float:right}
-    .labeltxt {font-size:16px !important;color:#4c5356 !important}
-    #createProfileView .wrapper .subfrmDv {width:100%;height:auto;margin: 50px 0 30px 0;}
-    #createProfileView .wrapper .subfrmDv .subbtn {width:100%;height:40px;color:#000 !important;background:#D5DE23 !important}
-    #createProfileView .wrapper .subfrmDv .subbtn span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
-    #createProfileView .wrapper .subfrmDv .subbtn:active {background:#D5DE23 !important;color:#000 !important;}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /* Verification Modalview*/
-    #verification .myText {font-size:15px;}
-    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 45px;}
-    #verification .codeSub {width: 85%;height: 40px;line-height: 25px;background:#D5ED23 !important;color:#000 !important;font-size:16px}
-    #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
-    #verification {width:100%;height:200px}
-    #verification .txtfldP {margin-top: 20px;text-align:center}
-    #verification .btnP {margin-top: 25px;text-align:center}
-    #verification .navbar {background-color:#002631 !important}
-    #verification .navbar span {color:#fff !important}
-    
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    /*Filter View*/
-    #filterView .mainContent {width:95%;height:auto;margin:0px auto}
-    #filterView .mainContent .sinfldDv {  width: 100%;height: auto;margin-top: 6%;}
-    #filterView .mainContent .sinfldDv label {font-size: 18px;color: #000;}
-    #filterView .mainContent .sinfldDv .drpdwn{width: 100%;height: 35px;border: 1px solid #ccc;background-color: #fff;}
-    #filterView .mainContent .subfrmDv {width: 100%;height: auto;margin: 50px 0 30px 0;}
-    #filterView .mainContent .subfrmDv .editFld {background:red !important}
-    #filterView .mainContent .subfrmDv a{width: 100%;height: 40px;color: #000 !important;background: #D5DE23 !important;}
-    #filterView .mainContent .subfrmDv a span{font-size: 18px;font-family: sans-serif;line-height: 25px;}
 }
 
 @media (min-width:0px) and (max-width:320px) {
@@ -1876,14 +928,14 @@
     #loginView ::-webkit-input-placeholder {color:#71898D;font-size:14px;}
 	#loginView .inlineFld {display:inline-block;width:100%}
     #loginView .inlineFld .inlineFldLeft {float:left;width:50%;}
-    #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 15px;display: inline-block;}
+    #loginView .inlineFld .inlineFldLeft p:nth-child(1){float:left;width:10px;height:18px;margin-top: 13px;display: inline-block;}
     #loginView .inlineFld .inlineFldLeft p:nth-child(1) .checkFld {width: 100%;height: 100%;}
     #loginView .inlineFld .inlineFldLeft p:nth-child(2) span {font-size:13px;font-weight:500;color: #fff;}
     #loginView .inlineFld .inlineFldRight {float:right;width:50%;}
     #loginView .inlineFld .inlineFldRight a {text-decoration:none;font-size: 13px;font-weight: 500;color:#D5DE23}
     #loginView .wrapper .btnGrp {width:93%;display:block;margin:0px auto;margin-top: 20px;}
     #loginView .wrapper .btnGrp .signDv{width: 100%;margin-bottom: 10px;}
-    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 6px;}
+    #loginView .wrapper .btnGrp .signDv a {width: 98%;height: 40px;line-height: 20px;background-color:#3B5999 !important;color:#fff;background:url('./images/fb.png') no-repeat;font-size: 17px;font-family: times;font-weight: 500;background-position: 35px 6px;background-position: 34px 8px;background-size: 20px 20px;}
     #loginView .wrapper .btnGrp .signDv a span{margin-left: 10px;}
     #loginView .wrapper .btnGrp .signDv .login {border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;overflow:hidden}
     #loginView .wrapper .btnGrp .signDv .login span{font-size: 18px;}
@@ -1940,7 +992,7 @@
     #forgotPwdView .wrapper .requestBtnDv{width:100%;height:auto;margin-top: 10%;}
     #forgotPwdView .wrapper .requestBtnDv p {text-align:center}
     .requestBtnDv .forgotBtn{border: none !important;background: #D5DE23 !important;color: #000 !important;font-weight: 600 !important;width: 50%;height: 40px;}
-    .requestBtnDv .forgotBtn span {font-size:16px;}
+    .requestBtnDv .forgotBtn span {font-size:16px;line-height: 25px;}
     #forgotPwdView .wrapper .bottomTextData {width:100%;height:auto;margin-top:15%}
     #forgotPwdView .wrapper .bottomTextData p {text-align:center}
     #forgotPwdView .wrapper .bottomTextData p span {font-size:14px;color:#fff}
@@ -1980,9 +1032,9 @@
     #myprofile .wrapper .picDv img {width:100%;height:auto}
     #myprofile .wrapper .titleEditDv{width: 100%;height: auto;margin-top: 10px;display:inline-block;}
     #myprofile .wrapper .titleEditDv .titlePart {width:75%;height:100%;float:left;}
-    #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 23px;}
+    #myprofile .wrapper .titleEditDv .titlePart .nameSpan {color:#125365;font-size: 20px;}
+    #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:20px}
     #myprofile .wrapper .titleEditDv .titlePart .placeSpan {margin-left: 10px;color: #6F6F6F;font-size: 17px;}
-    #myprofile .wrapper .titleEditDv .titlePart .ageSpan {color:#6F6F6F;font-size:22px}
     #myprofile .wrapper .titleEditDv .editPart {width:25%;height:100%;float:left;}
     #myprofile .wrapper .titleEditDv .editPart a{background: url('./images/edit.png') no-repeat;width: 50px;height: 50px;background-position: center center;float: right;background-size: 58%;border: none;margin-top: 10px;}
     
@@ -2031,7 +1083,7 @@
     #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn span{line-height: 28px;font-size: 11px;}
     #requestView .mainTabstrip .tabstripchild0 .sendrequestBtn:active {background: #fff;border: none;}
     
-    #requestView .mainTabstrip .tabstripchild1 {width: 34%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #requestView .mainTabstrip .tabstripchild1 {width: 34%;height:100%;float: left;border-right: 0px solid #ccc;}
     #requestView .mainTabstrip .tabstripchild1 .acceptrequest {width:100%;height:100%;color:#000;background:#fff;border:none;/*font-size:11px;*/}
     #requestView .mainTabstrip .tabstripchild1 .acceptrequest span{line-height: 28px;font-size: 11px;}
     #requestView .mainTabstrip .tabstripchild1 .acceptrequest:active {background: #fff;border: none;}
@@ -2175,9 +1227,6 @@
     #searchView li .main .contentDv p:last-child label img{width: 18px;margin-top: 3px;height: 20px;}
     #searchView li .main .contentDv p:last-child .intrstSpn{color:#2AA360;font-size: 11px;}
     #searchView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
-    #searchView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
-    #searchView li .main .imageDiv .certify{width: 20px;border: none;position: absolute;top: 10px;left: 4px;}
-    
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Viewed Me View*/
@@ -2230,37 +1279,37 @@
     
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Favourite View*/
-    #favoriteView .wrapper {width:100%;height:auto;}
-    #favoriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
-    #favoriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite span{line-height: 28px;font-size: 12px;}
-    #favoriteView .mainTabstrip .tabstripchild1 .myfavorite:active {background: none;border: none;}
-    #favoriteView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite {width:100%;height:100%;color:#000;background:none;border:none}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite span{line-height: 28px;font-size: 12px;}
-    #favoriteView .mainTabstrip .tabstripchild2 .whoFavorite:active {background: none;border: none;}
+    #favouriteView .wrapper {width:100%;height:auto;}
+    #favouriteView .nvbar .search {background:url('./images/search.png') no-repeat !important;width: 25px;height: 25px;background-size: 100%;padding: 0px 0px 20px 20px;margin: 3px 0px 0 1px;}
+    #favouriteView .mainTabstrip {width: 100%;height: 45px;display: inline-block;border-bottom: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild1 {width: 50%;height:100%;float: left;border-right: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn span{line-height: 28px;font-size: 12px;}
+    #favouriteView .mainTabstrip .tabstripchild1 .messageBtn:active {background: none;border: none;}
+    #favouriteView .mainTabstrip .tabstripchild2 {width: 50%;height:100%;float: left;border-left: 1px solid #ccc;}
+    #favouriteView .mainTabstrip .tabstripchild2 .sendmessageBtn {width:100%;height:100%;color:#000;background:none;border:none}
+    #favouriteView .mainTabstrip .tabstripchild2 span{line-height: 28px;font-size: 12px;}
+    #favouriteView .mainTabstrip .tabstripchild2 .sendmessageBtn:active {background: none;border: none;}
     
-    #favoriteView #myfavoriteData {margin-top: 0px}
-    #favoriteView #myfavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #myfavoriteData .main .imageDv {width: 25%;float: left;}
-    #favoriteView #myfavoriteData .main .imageDv img {width:100%}
-    #favoriteView #myfavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;font-size: 16px;}
-    #favoriteView #myfavoriteData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #favoriteView #myfavoriteData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
-    #favoriteView #myfavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
+    #favouriteView #messageData {margin-top: 0px}
+    #favouriteView #messageData .main {width:100%;height:auto;display:inline-block}
+    #favouriteView #messageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #messageData .main .imageDv img {width:100%}
+    #favouriteView #messageData .main .contentDv {width: 75%;float: left;}
+    #favouriteView #messageData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;font-size: 16px;}
+    #favouriteView #messageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #favouriteView #messageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #messageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
     
-    #favoriteView #whoFavoriteData {margin-top: 0px}
-    #favoriteView #whoFavoriteData .main {width:100%;height:auto;display:inline-block}
-    #favoriteView #whoFavoriteData .main .imageDv {width: 25%;float: left;}
-    #favoriteView #whoFavoriteData .main .imageDv img {width:100%}
-    #favoriteView #whoFavoriteData .main .contentDv {width: 75%;float: left;}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;font-size: 16px;}
-    #favoriteView #whoFavoriteData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
-    #favoriteView #whoFavoriteData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
-    #favoriteView #whoFavoriteData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
+    #favouriteView #sendmessageData {margin-top: 0px}
+    #favouriteView #sendmessageData .main {width:100%;height:auto;display:inline-block}
+    #favouriteView #sendmessageData .main .imageDv {width: 25%;float: left;}
+    #favouriteView #sendmessageData .main .imageDv img {width:100%}
+    #favouriteView #sendmessageData .main .contentDv {width: 75%;float: left;}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(1) {/*margin: 0px 0 5px 15px;*/font-weight: bold;font-size: 16px;}
+    #favouriteView #sendmessageData .main .contentDv p:nth-child(2) {font-size: 13px;text-align: justify;margin: 10px 0 0 15px;}
+    #favouriteView #sendmessageData .main .time_iconDV{position: absolute;top: 25px;right: 0;overflow:auto}
+    #favouriteView #sendmessageData .main .time_iconDV p {width: 20px;height: 20px;background-color: #D5DE23;border-radius: 50%;}
     
     /*26-10-2015*/
     
@@ -2306,7 +1355,7 @@
     /*---------------------------------------------------------------------------------------------------------------------*/
     /* Verification Modalview*/
     #verification .myText {font-size:15px;}
-    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 45px;}
+    #verification .verfTxtfld {/*  margin-left: 10px;*/width: 100%;height: 40px;}
     #verification .codeSub {width: 85%;height: 40px;line-height: 25px;background:#D5ED23 !important;color:#000 !important;font-size:16px}
     #verification .codeSub:active {background:#D5ED23 !important;color:#000 !important;}
     #verification {width:100%;height:200px}

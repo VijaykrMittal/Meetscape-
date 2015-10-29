@@ -8,7 +8,7 @@
         
         show : function()
         {
-            var data = [{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png'}];
+            var data = [{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:''},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:''},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:'styles/images/red_circle.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:'styles/images/green_circle.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:''},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:''},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:'styles/images/red_circle.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:''},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:'styles/images/green_circle.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:'styles/images/green_circle.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:''},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:''},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:''},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:''},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:''},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:'styles/images/red_circle.png'},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:''},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:''},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:''},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:''},{'name':'Dave Michalle','age':25,'interest':10,'url':'styles/images/img1.png',statusIcon:'styles/images/green_circle.png'},{'name':'Eaddy Martin','age':22,'interest':18,'url':'styles/images/img2.png',statusIcon:'styles/images/red_circle.png'},{'name':'Nikol','age':27,'interest':8,'url':'styles/images/img3.png',statusIcon:'styles/images/green_circle.png'},{'name':'Danim','age':30,'interest':7,'url':'styles/images/img1.png',statusIcon:''}];
             app.meetService.viewModel.setSearchData(data);
         },
         
@@ -25,13 +25,15 @@
         
         searchCall : function()
         {
-             alert("Search");
+             //alert("Search");
         },
         
         filterCall : function()
         {
-             alert("Filter");
+             //alert("Filter");
+            app.apps.navigate('views/filter.html');
         },
+        
         
         meetListItemSelect:function(e)
         {

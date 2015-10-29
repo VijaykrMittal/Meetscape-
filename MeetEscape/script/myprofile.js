@@ -12,11 +12,18 @@
         drawerShow : function()
         {
             $(".km-native-scroller").scrollTop(0);
+            $('.morehide').hide();
+        },
+        
+        profEdit:function()
+        {
+            alert("edit Profile");
         },
         
         profEditbyDrawer : function()
         {
-            alert("edit Profile");
+           // alert("edit Profile");
+            app.apps.navigate('views/dashboard.html');
         },
         
         moveToMeet:function()
@@ -41,7 +48,9 @@
         
         moveToFavourite:function()
         {
-            app.apps.navigate('views/favourite.html');
+            //app.apps.navigate('views/favourite.html');
+            app.apps.navigate('views/favoriteView.html');
+            
         },
         
         moveToviewedMe:function()
@@ -51,7 +60,7 @@
         
         moveToMore:function()
         {
-            //app.apps.navigate('views/viewedMe.html');
+            $('.morehide').slideToggle();
         },
         
         moveToSetting:function()
@@ -84,7 +93,10 @@
             app.apps.navigate('views/login.html');
         },
         
-        
+        moveToInbox:function()
+        {
+            app.apps.navigate('views/message.html');
+        }
         
     });
     app.profileService = {

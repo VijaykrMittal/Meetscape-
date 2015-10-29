@@ -19,7 +19,8 @@
         
         filterCall:function()
         {
-            alert("filter Call");
+           // alert("filter Call");
+            app.apps.navigate('views/filter.html');
         },
         
         listItemSelect:function(e)

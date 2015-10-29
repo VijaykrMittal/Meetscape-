@@ -11,7 +11,8 @@
         
         successVerfCode:function()
         {
-            app.apps.navigate('views/dashboard.html');
+           // alert("hi");
+            app.apps.navigate('views/create_profile.html');
         }
     });
     

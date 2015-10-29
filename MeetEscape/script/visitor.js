@@ -23,7 +23,7 @@
         
         searchCall:function()
         {
-            alert("Search Call");
+          //  alert("Search Call");
         },
         
         listItemSelect:function(e)

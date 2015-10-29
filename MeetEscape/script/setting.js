@@ -21,7 +21,7 @@
         
         searchCall : function()
         {
-            alert("search");
+           // alert("search");
         }
     });
     app.settingService = {

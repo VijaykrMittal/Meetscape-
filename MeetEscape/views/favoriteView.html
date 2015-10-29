@@ -1,0 +1,55 @@
+<div data-role="view" id="favoriteView" data-title="Favorites" data-use-native-scrolling="true" data-model="app.myfavoriteService.viewModel" data-show="app.myfavoriteService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" class="search" data-bind="click:searchCall"></a>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper" id="example">
+            <div class="mainTabstrip">
+                <div class="tabstripchild1">
+                    <a data-role="button" data-bind="click:getmessagesData" data-id="myfavorite" class="myfavorite">My Favorites</a>
+                </div>
+                <div class="tabstripchild2">
+                    <a data-role="button" class="whoFavorite" data-bind="click:getmessagesData" data-id="whoFavorite">Who Favorited Me</a>
+                </div>
+            </div>
+
+            <ul id="myfavoriteData" data-role="listview" data-template="myfavoriteDataView" data-bind="source:myfavoritelistData"></ul>
+            <ul id="whoFavoriteData" data-role="listview" data-template="whoFavoriteDataView" data-bind="source:whoFavoritelistData"></ul>
+            <!--<ul id="myList" data-role="listview"></ul>-->
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="myfavoriteDataView">
+    <div class="main" data-name="#:data['name']#" data-bind="click:listItemSelect">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p>#:data['loc']#</p>
+        </div>
+        <div class="time_iconDV">
+            <p></p>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="whoFavoriteDataView">
+    <div class="main" data-name="#:data['name']#" data-bind="click:listItemSelect">
+        <div class="imageDv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p>#:data['loc']#</p>
+        </div>
+        <div class="time_iconDV">
+            <p></p>
+        </div>
+    </div>
+</script>

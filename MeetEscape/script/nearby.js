@@ -19,13 +19,16 @@
         
         filterCall:function()
         {
-            alert("filter Call");
+            //alert("filter Call");
+           // $("#filterView").data("kendoMobileModalView").open();
+            app.apps.navigate('views/filter.html');
         },
         
         listItemSelect:function(e)
         {
             //console.log(e);
-            alert(e['currentTarget']['attributes']['data-name']['value'])
+            //alert(e['currentTarget']['attributes']['data-name']['value']);
+            app.apps.navigate('views/userprofile.html');
         }
     });
     app.nearbyService = {

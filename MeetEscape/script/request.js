@@ -11,6 +11,8 @@
         show:function()
         {
             $('.acceptrequest,.tabstripchild1').css('background','#D5DE23');
+            $('.sendrequestBtn,.tabstripchild0').css('background','none');
+            $('.matchedBtn,.tabstripchild2').css('background','none');
             
             if(app.requestService.viewModel.defaultAPI === true)
             {
@@ -60,7 +62,7 @@
         
         searchCall:function()
         {
-            alert("Search Call");
+           // alert("Search Call");
         },
         
         getmessagesData:function(e)
@@ -102,7 +104,7 @@
         
         listItemSelect:function()
         {
-            alert("call");
+            //alert("call");
         }
     });
     app.requestService = {

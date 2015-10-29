@@ -10,6 +10,7 @@
         show:function()
         {
             $('.messageBtn,.tabstripchild1').css('background','#D5DE23');
+            $('.sendmessageBtn,.tabstripchild2').css('background','#fff');
             
             if(app.messageService.viewModel.defaultAPI === true)
             {
@@ -48,7 +49,7 @@
         
         searchCall:function()
         {
-            alert("Search Call");
+            //alert("Search Call");
         },
         
         getmessagesData:function(e)

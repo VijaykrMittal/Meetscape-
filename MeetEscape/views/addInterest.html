@@ -1,4 +1,4 @@
-<div data-role="view" id="interestView" data-title="Add Interests">
+<div data-role="view" id="interestView" data-title="Add Interests" data-model="app.interestService.viewModel" data-show="app.interestService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" class="menu" data-rel="drawer" href="#drawerList"></a>
@@ -15,7 +15,15 @@
                 <p>
                     <select class="selectBox">
                         <option>Select Interest</option>
+                        <option>Category 1</option>
+                        <option>Category 2</option>
+                        <option>Category 3</option>
+                        <option>Category 4</option>
+                        <option>Category 5</option>
                     </select>
+                </p>
+                <p>
+                    <a data-role="button" data-bind="click:interestSubmit" class="intrstbtn">Submit</a>
                 </p>
             </div>
         </div>

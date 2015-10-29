@@ -1,22 +1,22 @@
 (function(global){
-    var favouriteViewModel,
+    var favoriteViewModel,
     app = global.app = global.app || {};
 
-    favouriteViewModel = kendo.data.ObservableObject.extend({
+    favoriteViewModel = kendo.data.ObservableObject.extend({
         
-        messagelistData:'',
-        sendmessagelistData:'',
+        myfavoritelistData:'',
+        whoFavoritelistData:'',
         defaultAPI :true,
         show:function()
         {
-            $('.messageBtn,.tabstripchild1').css('background','#D5DE23');
-            $('.sendmessageBtn,.tabstripchild2').css('background','#fff');
+            $('.myfavorite,.tabstripchild1').css('background','#D5DE23');
+            $('.whoFavorite,.tabstripchild2').css('background','#fff');
             
-            if(app.messageService.viewModel.defaultAPI === true)
+            if(app.myfavoriteService.viewModel.defaultAPI === true)
             {
                // alert("true");
-                app.favouriteService.viewModel.messagesAPI_Call();
-                app.favouriteService.viewModel.defaultAPI = false;
+                app.myfavoriteService.viewModel.messagesAPI_Call();
+                app.myfavoriteService.viewModel.defaultAPI = false;
             }
             else
             {
@@ -28,23 +28,23 @@
         messagesAPI_Call : function()
         {
             var data = [{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'},{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'},{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'},{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'},{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'},{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'},{'name':'Nikol','loc':'Florida','url':'styles/images/img3.png'},{'name':'Danim','loc':'Florida','url':'styles/images/img1.png'}];
-            app.favouriteService.viewModel.setMessageData(data);
+            app.myfavoriteService.viewModel.setMessageData(data);
         },
         
         sendmessagesAPI_Call : function()
         {
             var data = [{'name':'Dave Michalle','loc':'Florida','url':'styles/images/img1.png'},{'name':'Eaddy Martin','loc':'Florida','url':'styles/images/img2.png'}];
-            app.favouriteService.viewModel.setSendMessageData(data);
+            app.myfavoriteService.viewModel.setSendMessageData(data);
         },
         
         setMessageData  :function(data)
         {
-            this.set('messagelistData',data);
+            this.set('myfavoritelistData',data);
         },
         
         setSendMessageData  :function(data)
         {
-            this.set('sendmessagelistData',data);
+            this.set('whoFavoritelistData',data);
         },
         
         searchCall:function()
@@ -56,21 +56,20 @@
         {
            // console.log(e);
           //  console.log(e['target'][0]['attributes']['data-id']['value']);
-            
-            if(e['target'][0]['attributes']['data-id']['value'] === 'message')
+            if(e['target'][0]['attributes']['data-id']['value'] === 'myfavorite')
             {
-                $('#messageData').show();
-                $('#sendmessageData').hide();
-                $('.messageBtn,.tabstripchild1').css('background','#D5DE23');
-                $('.sendmessageBtn,.tabstripchild2').css('background','none');
+                $('#myfavoriteData').show();
+                $('#whoFavoriteData').hide();
+                $('.myfavorite,.tabstripchild1').css('background','#D5DE23');
+                $('.whoFavorite,.tabstripchild2').css('background','none');
             }
             else
             {
-                app.favouriteService.viewModel.sendmessagesAPI_Call();
-                $('#messageData').hide();
-                $('#sendmessageData').show();
-                $('.sendmessageBtn,.tabstripchild2').css('background','#D5DE23');
-                $('.messageBtn,.tabstripchild1').css('background','none');
+                app.myfavoriteService.viewModel.sendmessagesAPI_Call();
+                $('#myfavoriteData').hide();
+                $('#whoFavoriteData').show();
+                $('.whoFavorite,.tabstripchild2').css('background','#D5DE23');
+                $('.myfavorite,.tabstripchild1').css('background','none');
             }
         },
         
@@ -80,7 +79,7 @@
             alert(e['currentTarget']['attributes']['data-name']['value'])
         }
     });
-    app.favouriteService = {
-        viewModel : new favouriteViewModel()
+    app.myfavoriteService = {
+        viewModel : new favoriteViewModel()
     };
 })(window);

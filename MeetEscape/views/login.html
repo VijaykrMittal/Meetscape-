@@ -34,7 +34,8 @@
             </div>
             <div class="btnGrp">
                 <div class="signDv">
-                    <a data-role="button" class="login" data-bind="click:loginSubmit">Sign In</a>
+                    <a data-role="button" class="login" id="loginClick">Sign In</a>
+                    <!--<a data-role="button" class="login" id="loginClick" data-click="app.loginService.viewModel.loginSubmit">Sign In</a>-->
                 </div>
                 <div class="signDv">
                     <a data-role="button" class="fblogin">Login with facebook</a>
@@ -50,7 +51,13 @@
 </div>
 
 <!--Signup View-->
-<div data-role="view" id="signupView" data-use-native-scrolling="true" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
+<div data-role="view" id="signupView" data-title="Signup" data-use-native-scrolling="true" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
+    <!--<div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="backbutton" data-align="left" class="menu"></a>
+            <span data-role="view-title"></span>
+        </div>
+    </div>-->
     <div data-role="content">
         <div class="wrapper">
             <div class="picUploadDv">

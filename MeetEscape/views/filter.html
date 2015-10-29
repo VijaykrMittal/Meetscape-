@@ -1,0 +1,75 @@
+<div data-role="view" data-title="Filter" id="filterView" data-use-native-scrolling="true">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <span data-role="view-title"></span>
+            <a data-role="backbutton" data-align="right" class="save">Save</a>
+        </div>
+    </div>
+    <div data-role="content">
+       <div class="mainContent">
+           <div class="sinfldDv">
+                <label>Location</label>
+                <p>
+                    <input type="text" name="city" id="city" class="editTxtFld" value="Washington" disabled="true"/>
+                    <a data-role="button" class="editFld"></a>
+                </p>
+               <p>
+                   <input type="text" name="area" id="area" class="editTxtFld" value="D.C.City, Museum Shop" disabled="true"/>
+                   <a data-role="button" class="editFld"></a>
+               </p>
+           </div>
+           
+           <div class="sinfldDv">
+                <label>Select Gender</label>
+                <p>
+                    <label class="labeltxt">
+                        <input type="radio" name="male" id="male"/>
+                        Male
+                    </label>
+                    <label class="labeltxt">
+                        <input type="radio" name="male" id="male"/>
+                        Female
+                    </label>
+                    
+                </p>
+           </div>
+           <div class="sinfldDv">
+                <label>I'm Here to</label>
+                <p>
+                    <select class="drpdwn">
+                        <option>Make Friends</option>
+                    </select>
+                </p>
+           </div>
+           <div class="sinfldDv">
+                <label>Age Range</label>
+                <p>
+                    <select class="drpdwn">
+                        <option>18-90 Years</option>
+                    </select>
+                </p>
+           </div>
+           <div class="sinfldDv">
+                <label>Within Km</label>
+                <p>
+                    <select class="drpdwn">
+                        <option>5-150 Km</option>
+                    </select>
+                </p>
+           </div>
+           <div class="sinfldDv">
+                <label>Last Online</label>
+                <p>
+                    <select class="drpdwn">
+                        <option>Last 14 days</option>
+                    </select>
+                </p>
+           </div>
+           <!--<div class="subfrmDv">
+                <p>
+                    <a data-role="button" class="subbtn km-widget km-button" data-bind="click:usersubmit"><span class="km-text">Submit</span></a>
+                </p>
+           </div>-->
+       </div>
+    </div>
+</div>

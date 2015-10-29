@@ -19,7 +19,7 @@
         
         searchCall:function()
         {
-            alert("search Call");
+            //alert("search Call");
         },
         
         listItemSelect:function(e)

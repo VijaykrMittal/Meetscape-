@@ -22,10 +22,28 @@
     </div>
 </div>
 
+<!--<script type="text/x-kendo-template" id="searchyDataView">
+    <div class='main' data-name="#:data['name']#" data-bind="click:listItemSelect">
+        <div class="imageDiv">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p>
+                <label><img src='#:data['locationimg']#'/></label>
+                <span class="intrstSpn">#:data['place']#</span>
+            </p>
+        </div>
+    </div>
+</script>-->
+
 <script type="text/x-kendo-template" id="searchyDataView">
     <div class='main' data-name="#:data['name']#" data-bind="click:listItemSelect">
         <div class="imageDiv">
             <img src='#:data['url']#'/>
+             #if(data['statusIcon'] !== ""){#
+                <img src='#:data['statusIcon']#' class="status"/>
+            #}#    
         </div>
         <div class="contentDv">
             <p>#:data['name']#</p>

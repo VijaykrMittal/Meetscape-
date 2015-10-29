@@ -13,15 +13,15 @@ var app = (function(global){
                                             //    initial:'views/terms_condition.html'
                                             //     initial:'views/privacy_policy.html'
                                              //initial:'views/meet.html'
-                                             // initial:'views/addInterest.html'
-                                             //initial:'views/report_user.html'
+                                            //  initial:'views/addInterest.html'
+                                            // initial:'views/report_user.html'
                                             // initial:'views/notification.html'
                                             //  initial:'views/search.html'
                                              //  initial:'views/viewedMe.html'
-                                            //   initial:'views/message.html'
+                                             //  initial:'views/message.html'
                                             //  initial:'views/favourite.html'
                                             // initial:'views/visitor.html'
-                                           //  initial:'views/create_profile.html'
+                                            // initial:'views/create_profile.html'
     									 }
     );
     

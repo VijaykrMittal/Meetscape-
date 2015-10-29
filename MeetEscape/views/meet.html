@@ -14,10 +14,29 @@
     </div>
 </div>
 
+<!--<script type="text/x-kendo-template" id="listview_tmpl">
+    <div class='main'>
+        <div class="imageDiv" data-name="#:data['name']#" data-bind="click:meetListItemSelect">
+            <img src='#:data['url']#'/>
+        </div>
+        <div class="contentDv">
+            <p>#:data['name']#</p>
+            <p>
+                <label>Interest: <span class="intrstSpn">#:data['interest']#</span></label>&nbsp;&nbsp;
+                <label>Age: <span style="font-weight:bold">#:data['age']#</span></label>
+            </p>
+        </div>
+    </div>
+</script>-->
+
 <script type="text/x-kendo-template" id="listview_tmpl">
     <div class='main'>
         <div class="imageDiv" data-name="#:data['name']#" data-bind="click:meetListItemSelect">
             <img src='#:data['url']#'/>
+    
+            #if(data['statusIcon'] !== ""){#
+                <img src='#:data['statusIcon']#' class="status"/>
+            #}#
         </div>
         <div class="contentDv">
             <p>#:data['name']#</p>
