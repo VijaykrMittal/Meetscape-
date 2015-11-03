@@ -26,7 +26,7 @@
         listItemSelect:function(e)
         {
             //console.log(e);
-            alert(e['currentTarget']['attributes']['data-name']['value'])
+            //alert(e['currentTarget']['attributes']['data-name']['value'])
         }
     });
     app.viewedmeService = {

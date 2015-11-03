@@ -33,16 +33,17 @@
     <div class='main'>
         <div class="imageDiv" data-name="#:data['name']#" data-bind="click:meetListItemSelect">
             <img src='#:data['url']#'/>
-    
-            #if(data['statusIcon'] !== ""){#
-                <img src='#:data['statusIcon']#' class="status"/>
-            #}#
         </div>
-        <div class="contentDv">
-            <p>#:data['name']#</p>
-            <p>
-                <label>Interest: <span class="intrstSpn">#:data['interest']#</span></label>&nbsp;&nbsp;
-                <label>Age: <span style="font-weight:bold">#:data['age']#</span></label>
+        <div class="contentDv" style="display:inline-block">
+            <p class="txtCon">
+                #if(data['statusIcon'] !== ""){#
+                    <img src='#:data['statusIcon']#' style="width:12px;height:12px;"/> 
+                #}#
+                &nbsp;#:data['name']#, <span>#:data['age']#</span>
+            </p>
+            <p style="margin-left:5px">
+                <img src='styles/images/location_dark.png' style="width: 15px;height: 15px;float: left;margin: -1px 0 0 0;"/>
+                 &nbsp;<span>New Delhi</span>
             </p>
         </div>
     </div>

@@ -150,7 +150,13 @@
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    
+    #nearbyView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #nearbyView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #nearbyView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 15px;font-weight: 500;margin-left: 30px;}
+    #nearbyView li .main .contentDv .txtCon span {font-weight:600;font-size:14px;}
+    
+    /*#nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}*/
     #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -256,7 +262,10 @@
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+     #meetView li .main .contentDv .imgStats {float:left}
+    #meetView li .main .contentDv .imgStats img {width:15px;height:15px}
+    #meetView li .main .contentDv .txtCon {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    #meetView li .main .contentDv .txtCon span{font-size: 14px;font-weight: 600;}
     #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -605,7 +614,13 @@
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+    
+    #nearbyView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #nearbyView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #nearbyView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 15px;font-weight: 500;margin-left: 30px;}
+    #nearbyView li .main .contentDv .txtCon span {font-weight:600;font-size:14px;}
+    
+    /*#nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}*/
     #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -711,7 +726,10 @@
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+     #meetView li .main .contentDv .imgStats {float:left}
+    #meetView li .main .contentDv .imgStats img {width:15px;height:15px}
+    #meetView li .main .contentDv .txtCon {text-align:center;color:#022829;font-size: 15px;font-weight: 500;}
+    #meetView li .main .contentDv .txtCon span {font-size: 14px;font-weight: 600;}
     #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -1073,10 +1091,16 @@
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
+    
+    #nearbyView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #nearbyView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #nearbyView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 13px;font-weight: 500;margin-left: 5px;}
+    #nearbyView li .main .contentDv .txtCon span {font-weight:600;font-size:12px;}
+    
+    /*#nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}*/
+    #nearbyView li .main .contentDv p:last-child{text-align:left;font-size: 14px;margin-top: -4px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
-    #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#999;font-size: 12px;}
     #nearbyView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
@@ -1179,10 +1203,13 @@
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
-    #meetView li .main .contentDv p:last-child{text-align:center;font-size: 14px;margin-top: -10px;}
+    #meetView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #meetView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #meetView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 15px;font-weight: 500;margin-left: 5px;}
+    #meetView li .main .contentDv .txtCon span {font-weight:600;font-size:14px;}
+    #meetView li .main .contentDv p:last-child{text-align:left;font-size: 14px;margin-top: -5px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
-    #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
+    #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#999}
     #meetView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     #meetView li .main .imageDiv .status{width: 20px;border: none;position: absolute;top: 2px;left: 4px;}
     
@@ -1254,7 +1281,7 @@
     #viewedmeView li .main .imageDiv{float: left;}
     #viewedmeView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #viewedmeView li .main .contentDv{float:left;width:100%}
-    #viewedmeView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;margin: 10px 0 0 0;}
+    #viewedmeView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 16px;font-weight: 500;margin: 10px 0 0 0;}
     #viewedmeView .km-list>li {border-style: solid;border-width: 0 0 0px 0;line-height:0px}
     
     /*---------------------------------------------------------------------------------------------------------------------*/
@@ -1543,7 +1570,13 @@
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    
+    #nearbyView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #nearbyView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #nearbyView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 15px;font-weight: 500;margin-left: 30px;}
+    #nearbyView li .main .contentDv .txtCon span {font-weight:600;font-size:14px;}
+    
+   /* #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}*/
     #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 13px;margin-top: -10px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -1649,7 +1682,10 @@
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+     #meetView li .main .contentDv .imgStats {float:left}
+    #meetView li .main .contentDv .imgStats img {width:15px;height:15px}
+    #meetView li .main .contentDv .txtCon {text-align:center;color:#022829;font-size: 18px;font-weight: 500;}
+    #meetView li .main .contentDv .txtCon span{font-size: 14px;font-weight: 600;}
     #meetView li .main .contentDv p:last-child{text-align:center;font-size: 13px;margin-top: -10px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -2009,7 +2045,13 @@
     #nearbyView li .main .imageDiv{float: left;}
     #nearbyView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #nearbyView li .main .contentDv{float:left;width:100%}
-    #nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 16px;font-weight: 500;}
+    
+    #nearbyView li .main .contentDv .imgStats {float:none;position:absolute;left:0}
+    #nearbyView li .main .contentDv .imgStats img {width:12px;height:12px}
+    #nearbyView li .main .contentDv .txtCon {text-align:left;color:#022829;font-size: 15px;font-weight: 500;margin-left: 30px;}
+    #nearbyView li .main .contentDv .txtCon span {font-weight:600;font-size:14px;}
+    
+    /*#nearbyView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 16px;font-weight: 500;}*/
     #nearbyView li .main .contentDv p:last-child{text-align:center;font-size: 11px;margin-top: -10px;}
     #nearbyView li .main .contentDv p:last-child label {color:#022829;}
     #nearbyView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
@@ -2115,7 +2157,10 @@
     #meetView li .main .imageDiv{float: left;}
     #meetView li .main .imageDiv img {width:100%;border: 1px solid #ccc;}
     #meetView li .main .contentDv{float:left;width:100%}
-    #meetView li .main .contentDv p:first-child {text-align:center;color:#022829;font-size: 16px;font-weight: 500;}
+     #meetView li .main .contentDv .imgStats {float:left}
+    #meetView li .main .contentDv .imgStats img {width:15px;height:15px}
+    #meetView li .main .contentDv .txtCon {text-align:center;color:#022829;font-size: 16px;font-weight: 500;}
+    #meetView li .main .contentDv .txtCon span{font-size: 14px;font-weight: 600;}
     #meetView li .main .contentDv p:last-child{text-align:center;font-size: 11px;margin-top: -8px;}
     #meetView li .main .contentDv p:last-child label {color:#022829;}
     #meetView li .main .contentDv p:last-child .intrstSpn{font-weight: bold;;color:#2AA360}
